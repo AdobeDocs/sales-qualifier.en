@@ -18,20 +18,20 @@ topic_v2:
 
 # Accounts
 
-The account view combines AI-generated research, recent news, open opportunities, pipeline value, and engaged contacts. Use this information to understand the account before you reach out.
+The account view combines AI-generated research, recent news, open opportunities, pipeline value, and engaged contacts. Use this information to understand and prioritize an account before you reach out.
 
 ## Open an account
 
-Account information is reached through a prospect who belongs to it.
+Open an account from the profile of a prospect associated with it.
 
 1. Select **[!UICONTROL Prospects]** in the left navigation and open a prospect. See [Prospects](prospects.md).
 1. On the prospect detail page, select the **[!UICONTROL Account]** tab.
 
-Sales Qualifier identifies the account from the prospect's CRM record. The same account view is available from every prospect who works there. If Sales Qualifier cannot match an account, the tab shows _No account found_.
+Sales Qualifier identifies the account from the prospect's CRM record. The same account view is available from every prospect associated with that account. If Sales Qualifier cannot match an account, the tab shows _No account found_.
 
 >[!NOTE]
 >
->The available sections and metrics depend on your CRM, your organization's configuration, and the account data. If a section described here does not appear, its data or feature is not configured.
+>The available sections and metrics depend on your CRM, your organization's configuration, and the account data. If a section described here does not appear, the required data or feature is not configured.
 
 The account view has two tabs: **[!UICONTROL Details]** and **[!UICONTROL Account Research]**.
 
@@ -45,7 +45,7 @@ The overview card at the top of the tab identifies the account and summarizes it
 
 * The account name and region
 * **Annual recurring revenue (ARR)**—The annual recurring revenue across all active subscriptions. Select **[!UICONTROL View All]** to review ARR by product in the **[!UICONTROL Annual Recurring Revenue]** dialog.
-* Account statistics, including the number of open opportunities and contacts, and the pipeline value.
+* Account statistics, including open opportunity and contact counts and the pipeline value
 
 ### Account overview summary
 
@@ -58,7 +58,7 @@ Use the buttons below the overview to switch between account views. The availabl
 | View | What it shows |
 | --- | --- |
 | **[!UICONTROL Opportunities]** | Open opportunities linked to the account, with key fields for each. Select **[!UICONTROL View all]** to see the full list in a table. |
-| **[!UICONTROL Top Members]** | The account's top engaged contacts, ranked by engagement. Each contact shows their job title, email, a relative engagement score, and a relative urgency indicator. |
+| **[!UICONTROL Top Members]** | The account's top engaged contacts, ranked by engagement. Each contact shows their job title, email address, engagement score, and urgency indicator. |
 | **[!UICONTROL Intent data]** | Buying intent signals for the account, such as the products and topics the account is researching. |
 | **[!UICONTROL Account Team Members]** | People assigned to the account, with their email, job title, territory, and product group. |
 | **[!UICONTROL CRM fields]** | Account fields imported from your CRM, as configured in inbound mapping. See [Integrations and CRM](integrations.md#map-crm-fields-inbound-mapping). |
@@ -82,10 +82,10 @@ If research or news cannot load, each area offers a **[!UICONTROL Reload]** acti
 
 Account intelligence is most valuable when it shapes what you send:
 
-* Reference a recent news item or research signal to open with relevance instead of a generic pitch.
+* Reference a recent news item or research signal to make your opening relevant instead of using a generic pitch.
 * Check open opportunities and pipeline value to decide whether to prioritize the account.
 * Use **[!UICONTROL Top Members]** to identify who to contact, then enroll them in an outbound workflow.
-* Ask the [AI Assistant](ai-assistant.md) to build positioning for the account before a call.
+* Ask [AI Assistant](ai-assistant.md) to develop positioning for the account before a call.
 
 >[!MORELIKETHIS]
 >

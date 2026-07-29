@@ -1,6 +1,6 @@
 ---
 title: Get started with Sales Qualifier
-description: Learn how to complete the one-time admin setup for Sales Qualifier, including user groups and CRM connection, before your team starts using the app.
+description: Learn how to complete the one-time administrator setup for Sales Qualifier, including user groups and a CRM connection, before your team starts using the application.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
@@ -25,7 +25,7 @@ topic_v2:
 
 # Get started with Sales Qualifier
 
-After Adobe provisions Sales Qualifier for your organization, a Marketo system administrator must complete the initial setup. First, create the required user groups. Then, connect Salesforce or Microsoft Dynamics 365.
+After Adobe provisions Sales Qualifier for your organization, a [!DNL Marketo] system administrator must create the required user groups and connect Salesforce or Microsoft Dynamics 365.
 
 ## Set up user groups
 
@@ -59,7 +59,7 @@ Administrators who configure CRM connections, the [Knowledge Center](knowledge-c
 1. Open **[!UICONTROL Users]**, select **[!UICONTROL Add users]**, and add the administrators.
 1. Confirm that each administrator is also a member of the `Sales Qualifier` group.
 
-Membership in both groups makes **[!UICONTROL Admin Settings]** visible under **[!UICONTROL Administration]** in the left navigation. Standard users work with the fields, filters, and playbook that administrators configure. The configured opt-out footer applies to their outbound emails automatically. They cannot change these settings themselves. See [User roles and permissions](user-roles-permissions.md) for the full model.
+Membership in both groups makes **[!UICONTROL Admin Settings]** visible under **[!UICONTROL Administration]** in the left navigation. Standard users work with the fields, filters, and playbook that administrators configure. The configured opt-out footer applies to their outbound emails automatically. Standard users cannot change these settings. See [User roles and permissions](user-roles-permissions.md) for details.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ You can also create an optional `Sales Qualifier BDR managers` group. Members of
 
 ## Connect your CRM
 
-Sales Qualifier connects to Salesforce or Microsoft Dynamics 365 to give BDRs a unified view of users, leads, contacts, accounts, opportunities, owner mappings, and related activities. The initial connection requires read-only access to this CRM data. Work with your CRM administrator to prepare credentials before you connect Sales Qualifier. See [Integrations and CRM](integrations.md) for details about the integration.
+Sales Qualifier connects to Salesforce or Microsoft Dynamics 365 to give BDRs a unified view of users, leads, contacts, accounts, opportunities, owner mappings, and related activities. The initial connection requires read-only access to this CRM data. Work with your CRM administrator to prepare credentials before you connect Sales Qualifier. See [Integrations and CRM](integrations.md) for integration details.
 
 >[!PREREQUISITES]
 >
@@ -134,11 +134,11 @@ Do not use a `lightning.force.com` URL as the instance URL.
 
 A Microsoft Dynamics 365 or Azure administrator registers an application and adds it to the Dynamics environment.
 
-1. In Azure Active Directory, select **[!UICONTROL App registrations]** and register an application.
+1. In Microsoft Entra ID, select **[!UICONTROL App registrations]** and register an application.
 1. Copy the client ID and tenant ID, and create a client secret.
 1. In the **[!UICONTROL Power Platform admin center]**, select **[!UICONTROL Environments]** and open the Dynamics environment.
 1. Go to **[!UICONTROL Settings]** > **[!UICONTROL Users + permissions]** > **[!UICONTROL Application users]** and select **[!UICONTROL New app user]**.
-1. Select the registered Azure AD application.
+1. Select the registered Microsoft Entra application.
 1. Assign a security role that grants read access to leads, contacts, accounts, opportunities, and activities.
 
    A security role is required. Without one, the application cannot access Dynamics data.
@@ -153,7 +153,7 @@ A Microsoft Dynamics 365 or Azure administrator registers an application and add
 1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Admin Settings]**.
 1. Select **[!UICONTROL CRM connections]** under **[!UICONTROL Integrations]**.
 
-   Earlier versions of the interface might label this area **[!UICONTROL Integrations]** under **[!UICONTROL Administration]**.
+   Earlier versions of the interface might show this area as **[!UICONTROL Integrations]** under **[!UICONTROL Administration]**.
 
    The page displays cards for Salesforce and Microsoft Dynamics. An inactive connection shows **[!UICONTROL Connect]**. A configured connection shows **[!UICONTROL Connected]** and **[!UICONTROL Manage]**.
 
@@ -174,7 +174,7 @@ After connecting the CRM, configure inbound mapping to choose which CRM fields a
 
 Prospect fields appear on the **[!UICONTROL Person]** tab, account fields appear on the **[!UICONTROL Account]** tab, and opportunity fields appear in the **[!UICONTROL Account Opportunity]** section. Turn on **[!UICONTROL Filterable]** for each mapped field that representatives need as a filter.
 
-See [Integrations and CRM](integrations.md#map-crm-fields-inbound-mapping) for ongoing mapping and synchronization administration.
+See [Integrations and CRM](integrations.md#map-crm-fields-inbound-mapping) to manage field mapping and synchronization.
 
 ## Next steps
 

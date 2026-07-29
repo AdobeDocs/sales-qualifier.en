@@ -21,7 +21,7 @@ topic_v2:
 
 # Sales Qualifier
 
-Sales Qualifier is an AI-powered application that automates prospect qualification, outreach, and cross-channel buyer engagement for business development representatives (BDRs). The Account Qualification Agent analyzes your accounts and prospects, prioritizes those that are ready for the next step, and drafts personalized outreach based on your CRM data.
+Adobe Sales Qualifier is an AI-powered application that automates prospect qualification, outreach, and cross-channel buyer engagement for business development representatives (BDRs). The Account Qualification Agent analyzes your accounts and prospects, prioritizes those that are ready for the next step, and drafts personalized outreach based on your CRM data.
 
 BDRs can use the browser and email plugins to access business intelligence directly within their CRM or Outlook.
 
@@ -31,9 +31,9 @@ BDRs can use the browser and email plugins to access business intelligence direc
 * **Build goal-driven outbound workflows** in which AI proposes a cadence and drafts personalized emails for each prospect.
 * **Process outreach in one queue** for phone calls, LinkedIn InMails, and email reviews.
 * **Book meetings automatically** by connecting your calendar and inserting a personal booking link into your cadence.
-* **Ground AI outreach in your own materials** by building a playbook in the Knowledge Center.
-* **Ask questions in natural language** using AI Assistant, grounded in your CRM, engagement, and Knowledge Center data.
-* **Track what is working** with email and meeting-booking performance reporting.
+* **Inform AI outreach with your own materials** by building a playbook in the Knowledge Center.
+* **Ask questions in natural language** with AI Assistant, which uses your CRM, engagement, and Knowledge Center data.
+* **Track outreach performance** with email and meeting-booking reports.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
@@ -45,7 +45,7 @@ BDRs can use the browser and email plugins to access business intelligence direc
 
 Get started
 
-Complete the one-time admin setup: user groups and CRM connection.
+Complete the one-time administrator setup for user groups and a CRM connection.
 
 [Get started](getting-started.md)
 :::
@@ -65,7 +65,7 @@ Build, filter, and review your prospect list.
 
 Accounts
 
-Prioritize outreach with account-level pipeline and engagement.
+Prioritize outreach with account-level pipeline and engagement data.
 
 [Accounts](accounts.md)
 :::
@@ -145,7 +145,7 @@ Understand the user and administrator group model.
 
 AI Assistant
 
-Ask questions grounded in your CRM, engagement, and Knowledge Center data.
+Ask questions based on your CRM, engagement, and Knowledge Center data.
 
 [AI Assistant](ai-assistant.md)
 :::

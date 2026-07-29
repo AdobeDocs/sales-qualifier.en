@@ -19,7 +19,7 @@ topic_v2:
 
 # Prospects
 
-Select **[!UICONTROL Prospects]** in the left navigation to view the leads and contacts that you can access. Use the list to review information such as status and last activity.
+Select **[!UICONTROL Prospects]** in the left navigation to view the leads and contacts that you can access. Use the list to review each prospect's status and latest activity.
 
 ![Prospects table displaying lead status and last activity for prospect management](./assets/prospects.png){width="800" zoomable="yes"}
 
@@ -32,13 +32,13 @@ Select **[!UICONTROL Prospects]** in the left navigation to view the leads and c
 The prospect list combines people from more than one source:
 
 * **CRM prospects**—Sales Qualifier automatically imports leads and contacts assigned to the connected user. See [Integrations and CRM](integrations.md).
-* **Imported prospects**—Import a prospect list from a CSV file.
-* **Manually added prospects**—Add an individual prospect in Sales Qualifier.
+* **Imported prospects**—Prospects imported from a CSV file.
+* **Manually added prospects**—Individual prospects added in Sales Qualifier.
 
 To add prospects that do not come from your CRM:
 
 1. On the **[!UICONTROL Prospects]** page, select **[!UICONTROL People list]**.
-1. Choose **[!UICONTROL + Add people]** and select **[!UICONTROL Import CSV]** or **[!UICONTROL Add person]**.
+1. Select **[!UICONTROL + Add people]**, then select **[!UICONTROL Import CSV]** or **[!UICONTROL Add person]**.
 
    * For a CSV import, upload a CSV in the `firstname,email` format.
    * To add a person manually, enter their details in the form.
@@ -64,7 +64,7 @@ Select a prospect to open their profile. Review the signals that matter before y
 
 * **Activity list**—A chronological list of activities and an AI-generated summary of recent behavior.
 * **Timeline view**—A visual timeline of engagement across channels.
-* **Viewed content**—The web pages and assets that the prospect viewed. Select an item to open it.
+* **Viewed content**—Web pages and assets that the prospect viewed. Select an item to open it.
 
 >[!MORELIKETHIS]
 >

@@ -16,14 +16,14 @@ topic_v2:
 
 # Profile settings
 
-In the left navigation, expand **[!UICONTROL Configuration]** and select **[!UICONTROL Profile settings]**. Use these settings to manage your personal details, email, calendar, and chat availability.
+In the left navigation, expand **[!UICONTROL Configuration]** and select **[!UICONTROL Profile settings]**. Use these settings to manage your personal details, email connection, calendar, and chat availability.
 
 ## Email settings
 
 In the **[!UICONTROL Email settings]** tab, set up your email connections.
 
 * **[!UICONTROL Email connections]**—Select **[!UICONTROL Connect]** and follow the Microsoft sign-in process.
-* **[!UICONTROL Email signature]**—Configure the signature used in generated emails. Add your [meeting booking](outbound-workflows.md#meeting-booking) link so that prospects can schedule time with you.
+* **[!UICONTROL Email signature]**—Add or update the signature used in generated emails. Include your [meeting booking](outbound-workflows.md#meeting-booking) link so that prospects can schedule time with you.
 
 ## Calendar configuration
 
@@ -51,7 +51,7 @@ Sales Qualifier reads free/busy status, not event details, from the connected ca
 You can configure:
 
 * Working hours by day of week
-* Multiple blocks per day, for example 9:00–12:00 and 1:00–5:00
+* Multiple blocks per day, for example, 9:00 a.m.–noon and 1:00–5:00 p.m.
 * Your time zone
 * Meeting duration
 * Buffer before and after meetings

@@ -1,6 +1,6 @@
 ---
 title: Use AI Assistant
-description: Learn how to use the AI Assistant in Sales Qualifier to research accounts, draft outreach, and get answers grounded in your CRM, engagement, and Knowledge Center data.
+description: Learn how to use AI Assistant in Sales Qualifier to research accounts, draft outreach, and get answers based on your CRM, engagement, and Knowledge Center data.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
@@ -30,7 +30,7 @@ Select the floating **[!UICONTROL AI Assistant]** button to open the chat panel.
 >
 >AI Assistant availability depends on your organization's configuration and your permissions. If the **[!UICONTROL AI Assistant]** button does not appear, the feature is not enabled for your account.
 
-## What the assistant knows
+## Data sources
 
 AI Assistant can use these sources:
 
@@ -40,13 +40,13 @@ AI Assistant can use these sources:
 * Account research and recent news gathered by the Account Qualification Agent.
 * Public web research.
 
-## What you can do
+## Use AI Assistant
 
 Use AI Assistant for these tasks:
 
 * **Research and summarize**—Ask for a summary of an account, a buying group, or a prospect's recent engagement.
 * **Build positioning**—Ask the assistant to position your solution for a specific account before a meeting.
-* **Draft and refine outreach**—Ask it to write or rewrite an email. Specify the tone, length, or language, and whether to include emojis.
+* **Draft and refine outreach**—Ask it to write or rewrite an email. Specify the tone, length, language, and whether to include emojis.
 * **Get recommendations**—Ask which prospects or accounts to prioritize, or request a goal or cadence for a new outbound workflow.
 * **Find contact details**—Ask the assistant to enrich a prospect with more contact and background information.
 
@@ -56,11 +56,11 @@ To use your [Knowledge Center](knowledge-center.md) playbook, refer to the Knowl
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
-The response then reflects the messaging in your built playbook.
+The response reflects the messaging in your playbook.
 
 ## Give feedback on responses
 
-Rate generated content with the thumbs-up or thumbs-down control. Your feedback helps improve future responses.
+Rate generated content with the thumbs-up or thumbs-down controls. Your feedback helps improve future responses.
 
 ## Review AI responses
 

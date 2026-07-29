@@ -16,7 +16,7 @@ topic_v2:
 
 # Outbound performance
 
-In the left navigation, expand **[!UICONTROL Analytics]** and select **[!UICONTROL Outbound performance]**. Use the reports to compare outreach results and identify where to adjust your strategy.
+In the left navigation, expand **[!UICONTROL Analytics]** and select **[!UICONTROL Outbound performance]**. Use the reports to compare outreach results and identify opportunities to improve your strategy.
 
 Use **[!UICONTROL Time period]** in the upper-right corner to change the reporting window, such as **[!UICONTROL Last 30 days]**. Both tabs use the selected time period.
 
@@ -32,7 +32,7 @@ The **[!UICONTROL Email performance]** tab contains one row for each BDR email a
 | **[!UICONTROL Opened]** | Emails the recipient opened. |
 | **[!UICONTROL Clicked]** | Emails in which the recipient selected at least one link. |
 | **[!UICONTROL Replies]** | Emails that received a reply. |
-| **[!UICONTROL Bounced]** | Emails that did not deliver. |
+| **[!UICONTROL Bounced]** | Emails that were not delivered. |
 
 Sales Qualifier assigns separate statuses to out-of-office replies and bounces so that you can distinguish them from prospect engagement.
 

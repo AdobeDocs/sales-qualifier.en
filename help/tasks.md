@@ -27,7 +27,7 @@ The page has two tabs:
 * **[!UICONTROL Manual tasks]**—Phone calls, LinkedIn InMails, and email reviews for prospects who are enrolled in a workflow.
 * **[!UICONTROL Agent suggestions]**—Prospects that match a workflow's targeting criteria and are recommended for enrollment.
 
-Each tab has its own filters, sorting, and two-panel layout. The task list appears on the left, and the work panel appears on the right. Selecting a task loads its details in the work panel. When you complete a task, the next task is selected automatically.
+Each tab has its own filters, sorting options, and two-panel layout. The task list appears on the left, and the work panel appears on the right. Selecting a task loads its details in the work panel. When you complete a task, the next task is selected automatically.
 
 ## Manual tasks
 
@@ -43,7 +43,7 @@ Manual tasks are tied to outbound workflow steps and come in three types:
 
 ### The work panel
 
-For a Phone Call or LinkedIn InMail task, the work panel is organized into:
+For a **[!UICONTROL Phone Call]** or **[!UICONTROL LinkedIn InMail]** task, the work panel contains:
 
 * **[!UICONTROL Prospect]**—The prospect's name, email link, and phone number, when applicable.
 * **[!UICONTROL Outbound workflow]**—The linked workflow name, due date, and auto-skip indicator, when applicable.
@@ -61,17 +61,17 @@ Two actions are available from the work panel header:
 * **[!UICONTROL Mark complete]**—Use this action after you make the call, send the InMail, or review the emails. The queue advances to the next task.
 * **[!UICONTROL Skip]**—Use this action when you cannot complete the step but want to keep the prospect in the workflow. The prospect advances to the next cadence step.
 
-Phone call and LinkedIn InMail tasks can skip automatically if they remain open past the configured threshold. Automatic skipping advances the prospect through the cadence and does not affect scheduled email touchpoints.
+Phone call and LinkedIn InMail tasks can be skipped automatically if they remain open past the configured threshold. An automatic skip advances the prospect through the cadence and does not affect scheduled email touchpoints.
 
 ### Filter, search, and sort
 
 The toolbar above the list controls which tasks appear and in what order. Your filter and sort choices are saved and reapplied the next time you open the page.
 
 * **[!UICONTROL Filter]**—Open the filter panel:
-   * **[!UICONTROL Status]**—**[!UICONTROL Current]**, **[!UICONTROL Upcoming]**, **[!UICONTROL Overdue]**, **[!UICONTROL Completed]**, **[!UICONTROL Cancelled]**, **[!UICONTROL Skipped]**.
-   * **[!UICONTROL Task type]**—**[!UICONTROL Email Review]**, **[!UICONTROL LinkedIn InMail]**, **[!UICONTROL Phone Call]**.
-   * **[!UICONTROL Due date]**.
-   * **[!UICONTROL Outbound workflow]**—A searchable list of your workflows.
+  * **[!UICONTROL Status]**—**[!UICONTROL Current]**, **[!UICONTROL Upcoming]**, **[!UICONTROL Overdue]**, **[!UICONTROL Completed]**, **[!UICONTROL Cancelled]**, **[!UICONTROL Skipped]**.
+  * **[!UICONTROL Task type]**—**[!UICONTROL Email Review]**, **[!UICONTROL LinkedIn InMail]**, **[!UICONTROL Phone Call]**.
+  * **[!UICONTROL Due date]**.
+  * **[!UICONTROL Outbound workflow]**—A searchable list of your workflows.
 * **[!UICONTROL Sort]**—Sort by due date or creation date. The sort order also determines the order in which the queue advances.
 * **[!UICONTROL Search tasks]**—Find tasks by prospect name, company name, or workflow. Search applies with active filters.
 
@@ -85,12 +85,12 @@ Each task shows its current status:
 | --- | --- |
 | **[!UICONTROL Current]** | Due now and ready to act on. Current tasks show no badge. |
 | **[!UICONTROL Upcoming]** | The preceding step is complete, but the due date is in the future. You can act early if the moment is right. |
-| **[!UICONTROL Overdue]** | Past the due date and not yet completed. Flagged so you address it first. |
-| **[!UICONTROL Completed]** | You executed and marked the task complete. |
+| **[!UICONTROL Overdue]** | Past the due date and not yet completed. The task is flagged for attention. |
+| **[!UICONTROL Completed]** | You completed the action and marked the task complete. |
 | **[!UICONTROL Skipped]** | You skipped the step, or it skipped automatically. The prospect advances in the workflow. |
-| **[!UICONTROL Cancelled]** | The system cancelled the task because of a workflow change. |
+| **[!UICONTROL Cancelled]** | The system canceled the task because of a workflow change. |
 
-Completed, skipped, and cancelled tasks are final: their actions are no longer offered and their notes are read-only.
+Completed, skipped, and canceled tasks are final. Their actions are no longer available, and their notes are read-only.
 
 ## Agent suggestions
 
@@ -106,7 +106,7 @@ Two actions are available:
 * **[!UICONTROL Review prospects]**—Open the workflow to review and enroll recommended prospects. See [Add prospects and start email generation](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Mark as complete]**—Dismiss the suggestion after you review it.
 
-The **[!UICONTROL Agent suggestions]** tab offers **[!UICONTROL Current]**, **[!UICONTROL Completed]**, and **[!UICONTROL Cancelled]** status filters, an outbound-workflow filter, and sorting by created date.
+The **[!UICONTROL Agent suggestions]** tab includes **[!UICONTROL Current]**, **[!UICONTROL Completed]**, and **[!UICONTROL Cancelled]** status filters, an outbound workflow filter, and sorting by creation date.
 
 ## Complete tasks from a workflow
 

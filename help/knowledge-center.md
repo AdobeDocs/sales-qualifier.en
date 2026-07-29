@@ -1,6 +1,6 @@
 ---
 title: Build a Knowledge Center playbook
-description: Learn how to upload sales collateral and build a playbook in the Sales Qualifier Knowledge Center to ground AI outreach and assistance.
+description: Learn how to upload sales collateral and build a playbook in the Sales Qualifier Knowledge Center to inform AI outreach and assistance.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/5dpADHs-37gBKs-d1lf2rFLP-bJJQs-06kGCzhgGeRw'
@@ -51,7 +51,7 @@ When the playbook is ready, representatives can use it in two places:
 * **Outbound email prompts**—In a touchpoint prompt, name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. See [Generate and review touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
 * **AI Assistant**—Refer to the Knowledge Center in your question. For example, enter `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. See [AI Assistant](ai-assistant.md).
 
-In both cases, the generated content reflects the messaging in the built playbook rather than generic research.
+In both cases, the generated content reflects the messaging in your playbook rather than generic research.
 
 >[!MORELIKETHIS]
 >

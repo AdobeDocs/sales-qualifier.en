@@ -18,7 +18,7 @@ internal-label: Administration
 
 # Admin settings
 
-Use **[!UICONTROL Admin Settings]** to configure CRM integrations, populate the Knowledge Center, and manage email opt-out.
+Use **[!UICONTROL Admin Settings]** to configure CRM integrations, manage the Knowledge Center, and configure email opt-out.
 
 Sales Qualifier connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) and outbound workflows a consistent view of leads, accounts, contacts, activities, and owners. Sales Qualifier can also write outreach activities and opt-out status back to the CRM.
 
@@ -33,7 +33,7 @@ To configure CRM connections, field mapping, and activity synchronization, go to
 Sales Qualifier works with your CRM in these ways:
 
 * **CRM MCP queries**—The Account Qualification Agent queries live CRM data so that answers and insights reflect the current state of your records.
-* **Embedded plugin**—The CRM plugin displays [!DNL Marketo Sales Insights] (MSI) insights and agentic data in your CRM. From the plugin, add a prospect to Sales Qualifier.
+* **Embedded plugin**—The CRM plugin displays [!DNL Marketo Sales Insights] (MSI) insights and agentic data in your CRM. Use the plugin to add a prospect to Sales Qualifier.
 * **Activity synchronization**—When an administrator turns on **[!UICONTROL Activity sync]**, outreach activities synchronize to the CRM.
 
 ## CRM access scope
@@ -55,7 +55,7 @@ After the CRM is connected, select **[!UICONTROL Manage]** for the connection an
 
    Each field row displays its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
 
-1. Turn on **[!UICONTROL Filterable]** for each field that should be available as a filter on the **[!UICONTROL Prospects]** list.
+1. Turn on **[!UICONTROL Filterable]** for each field that you want to make available as a filter on the **[!UICONTROL Prospects]** list.
 1. Preview the section and select **[!UICONTROL Add]**.
 
 Mapped fields appear in the corresponding areas of Sales Qualifier:
@@ -70,7 +70,7 @@ Mapped fields appear in the corresponding areas of Sales Qualifier:
 1. Open **[!UICONTROL Outbound mapping]**.
 1. Turn on **[!UICONTROL Activity sync]** to sync Sales Qualifier outreach activities back to the CRM.
 
-When activity sync is off, Sales Qualifier can continue to use inbound CRM data, but it does not write outreach activities back to the CRM.
+When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not write outreach activities back to the CRM.
 
 ## Configure global email opt-out
 
@@ -81,7 +81,7 @@ When activity sync is off, Sales Qualifier can continue to use inbound CRM data,
 
 The settings save automatically.
 
-When a prospect selects the link, Sales Qualifier stops sending email to that prospect and synchronizes the opt-out status to the connected CRM.
+When a prospect selects the link, Sales Qualifier stops sending emails to that prospect and synchronizes the opt-out status to the connected CRM.
 
 ## Reference: sample API parameters
 

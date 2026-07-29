@@ -40,7 +40,7 @@ Organizations can also create an optional `Sales Qualifier BDR managers` group. 
 
 **[!UICONTROL Admin Settings]** appears under **[!UICONTROL Administration]** only for users who belong to both required groups. Changes to these settings apply to the entire organization.
 
-## What admins control
+## What administrators control
 
 | Setting | Where to configure it | Effect |
 | --- | --- | --- |

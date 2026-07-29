@@ -23,11 +23,11 @@ topic_v2:
 
 # Outbound workflows
 
+An outbound workflow is a goal-driven outreach cadence. You define the goal and targeting criteria. AI then proposes a multitouch cadence and writes personalized email content for each prospect. Before you activate the cadence, review and approve each email.
+
 >[!NOTE]
 >
 >Outbound workflows created by product administrators are shared with all users in your organization.
-
-An outbound workflow is a goal-driven outreach cadence. You define the goal and targeting criteria. AI then proposes a multitouch cadence and writes personalized email content for each prospect. Before you activate the cadence, review and approve each email.
 
 An outbound workflow connects four elements:
 
@@ -36,7 +36,7 @@ An outbound workflow connects four elements:
 * **Touchpoint cadence**—The ordered sequence of email, phone call, and LinkedIn InMail steps.
 * **Personalized email content**—AI-generated content based on the prospect profile, account context, engagement history, and recent news.
 
-The goal drives everything downstream: the AI uses it to suggest targeting filters, design the cadence, draft touchpoint prompts, and shape personalization for every generated email.
+The AI uses the goal to suggest targeting filters, design the cadence, draft touchpoint prompts, and personalize every generated email.
 
 ## Key concepts
 
@@ -45,7 +45,7 @@ The goal drives everything downstream: the AI uses it to suggest targeting filte
 | **Workflow** | A reusable outbound activity defined by a goal, targeting filters, cadence, and settings. |
 | **Goal** | What the outreach should accomplish. |
 | **Touchpoint** | One step in the cadence (email, phone call, or LinkedIn InMail), scheduled relative to enrollment. |
-| **Touchpoint prompt** | Instructions the AI follows when generating email body and subject for a prospect: tone, length, focus, and call to action. |
+| **Touchpoint prompt** | Instructions the AI follows when generating an email subject line and body for a prospect, including tone, length, focus, and call to action. |
 | **Cadence** | The full sequence of touchpoints: how many, in what order, and on which days. |
 | **Targeting filter** | A condition that limits the workflow to a subset of prospects. |
 | **Draft** | A generated email that is ready for review but not yet approved. |
@@ -65,9 +65,9 @@ The workflow wizard has five steps: **[!UICONTROL Goal]**, **[!UICONTROL Targeti
 
 The goal defines the intended outcome and guides targeting, cadence, and email generation.
 
-1. Choose **[!UICONTROL Start from scratch]** to write your own goal, or **[!UICONTROL Start from template]** to use a saved template.
+1. Select **[!UICONTROL Start from scratch]** to write your own goal, or select **[!UICONTROL Start from template]** to use a saved template.
 
-1. Choose one of the **[!UICONTROL Recommended goals]** as a starting point, or enter your own goal.
+1. Select one of the **[!UICONTROL Recommended goals]** as a starting point, or enter your own goal.
 1. Select **[!UICONTROL Next: Targeting]**.
 
 State a specific outcome in the goal. For example, enter `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` instead of `Promote campaign automation`.
@@ -76,7 +76,7 @@ State a specific outcome in the goal. For example, enter `Book a 15-minute disco
 
 Targeting filters define which prospects are eligible. When you add prospects later, only those prospects who match these filters appear in the selection list.
 
-1. Select the down arrow to display the **[!UICONTROL Add a filter]** list and select a filter to apply.
+1. Select the down arrow to open the **[!UICONTROL Add a filter]** list, then select a filter.
 
 1. Set values for the filter.
 1. Add more filters if you need to narrow the audience.
@@ -85,9 +85,9 @@ Targeting filters define which prospects are eligible. When you add prospects la
 
 ### Step 3: Generate and review touchpoints
 
-After you configure targeting, AI analyzes the goal and targeting criteria. It then defines the cadence and writes a prompt for each touchpoint. The cadence can include email, phone call, and LinkedIn InMail steps.
+After you configure targeting, AI analyzes the goal and targeting criteria, defines the cadence, and writes a prompt for each touchpoint. The cadence can include email, phone call, and LinkedIn InMail steps.
 
-To read its prompt, expand an email touchpoint. This instruction guides the AI when writing each prospect's email, including tone, length, focus, and call to action.
+Expand an email touchpoint to read its prompt. The prompt guides the AI as it writes each prospect's email, including the tone, length, focus, and call to action.
 
 #### Regenerate the cadence
 
@@ -97,7 +97,7 @@ If the cadence is not what you want, select **[!UICONTROL Regenerate]** and ente
 * `Lead with an executive briefing offer in the first email`
 * `Add a nurture touch focused on a relevant case study`
 
-AI rewrites the full cadence based on your instruction. To adjust one email touchpoint, edit its prompt instead of regenerating the cadence.
+AI rewrites the full cadence based on your instruction. To adjust one email touchpoint, edit its prompt instead of regenerating the entire cadence.
 
 #### Use the Knowledge Center in prompts
 
@@ -112,7 +112,7 @@ Refine the touchpoint prompts before generating prospect emails. AI uses these p
 The **[!UICONTROL Settings]** step controls how the workflow runs.
 
 1. Review the **[!UICONTROL Workflow name]** and change it if needed.
-1. In **[!UICONTROL Max prospects per workflow]**, confirm the upper limit on how many prospects the workflow can manage at once.
+1. In **[!UICONTROL Max prospects per workflow]**, confirm the maximum number of prospects that the workflow can manage at once.
 1. Set the **[!UICONTROL Send window]** for the hours when outbound emails are allowed to send.
 1. Turn on **[!UICONTROL Skip Weekends]** to move any touchpoint that falls on a weekend to the next business day.
 1. To stop follow-up touchpoints automatically once a prospect books a meeting, turn on **[!UICONTROL Meeting Booking Pause]**.
@@ -135,7 +135,7 @@ Saving opens the prospect selection view with the targeting filters from step 2 
 
 AI generates a personalized email for each selected prospect and email touchpoint. Phone and LinkedIn InMail touchpoints remain scheduled steps. To continue working during generation, select **[!UICONTROL Notify when ready]**.
 
-For each prospect, the AI combines each touchpoint prompt with prospect-specific data (person, account, engagement history, recent news) to produce a subject line and body.
+For each prospect, the AI combines the touchpoint prompt with person and account data, engagement history, and recent news to produce a subject line and body.
 
 ## Review and refine generated emails
 
@@ -156,7 +156,7 @@ For each generated email, **[!UICONTROL Reasoning]** explains how the AI crafted
 
 For small wording or tone changes:
 
-1. On the expanded touchpoint, select the _Edit_ icon to open the editor.
+1. On the expanded touchpoint, select the **[!UICONTROL Edit]** icon to open the editor.
 1. Edit the subject line or body.
 1. Select **[!UICONTROL Save]**.
 
@@ -175,11 +175,11 @@ For structural or emphasis changes, use **[!UICONTROL Generate with AI]**. AI re
 
 >[!TIP]
 >
->Direct edits suit wording and tone. Use _[!UICONTROL Generate with AI]_ to rewrite the email from scratch.
+>Use direct edits for wording and tone changes. Use **[!UICONTROL Generate with AI]** to rewrite the email.
 
 ## Approve and enroll prospects
 
-Approval activates the cadence for a prospect. Until a prospect is approved and enrolled, the system does not send emails to them.
+Approval activates the cadence for a prospect. The system does not send emails to a prospect until you approve and enroll them.
 
 1. In the left prospect list, select the prospects whose emails you have reviewed and are ready to send.
 1. Select **[!UICONTROL Approve and enroll prospects]** in the lower-right corner.
@@ -196,7 +196,7 @@ The [Email Outbox](email-outbox.md) lists the automated emails sent on your beha
 
 ## Meeting booking
 
-Sales Qualifier turns engaged conversations into booked meetings without leaving the outbound flow. When you connect your calendar, Sales Qualifier generates a personal booking link that prospects use to schedule time with you.
+When you connect your calendar, Sales Qualifier generates a personal booking link that prospects can use to schedule time with you.
 
 * **Booking links**—Configure your calendar connection and availability in [Profile settings](profile-settings.md). Add the booking link to your email signature so that it appears in outbound emails.
 * **Cadence placement**—Sales Qualifier inserts your booking link at relevant points in a cadence. You can change its placement.
@@ -206,9 +206,9 @@ Track booking outcomes on the [Outbound performance](performance.md) page.
 
 ## Outbound workflow best practices
 
-* **Invest in the goal.** Downstream targeting, cadence, and emails all trace back to the goal. Specific, outcome-focused goals outperform vague ones.
+* **Define a specific goal.** Targeting, cadence, and emails all derive from the goal. State the outcome that you want the workflow to achieve.
 * **Finalize touchpoint prompts before per-prospect generation.** After bulk generation, changes are typically made one prospect at a time.
-* **Use Reasoning as a quality check.** If the wrong signal is emphasized, or an obvious one is missing, edit the email or revisit the touchpoint prompt and regenerate the cadence.
+* **Use Reasoning as a quality check.** If the wrong signal is emphasized or a relevant signal is missing, edit the email or revise the touchpoint prompt and regenerate the cadence.
 * **Match the editing tool to the change.** Use direct edits for wording and tone. Use **[!UICONTROL Generate with AI]** for restructuring or reframing.
 * **Approve only what you have reviewed.** Expand touchpoints, read the content, and refine where needed before enrollment.
 

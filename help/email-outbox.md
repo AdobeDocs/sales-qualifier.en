@@ -33,7 +33,7 @@ Select an email in the list to open it on the right. The reading view has three 
 
 * **Recipient**—The recipient's name, job title, and account, when available.
 * **Subject and workflow**—The subject, the name of the [outbound workflow](outbound-workflows.md) that sent the email, and the workflow status. Select the workflow name to open it.
-* **Conversation**—The sent email and any replies in a thread. Each entry shows whether it was sent to the prospect or received as a reply, and includes the time.
+* **Conversation**—The sent email and any replies in a thread. Each entry identifies whether the message was sent or received and includes a timestamp.
 
 Emails render as they were sent, including personalized content. If the body of a message is not available, Sales Qualifier shows a short _Email content not available_ note in its place.
 

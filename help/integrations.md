@@ -22,7 +22,7 @@ topic_v2:
 
 # Integrations and CRM
 
-Connect Sales Qualifier to Salesforce or Microsoft Dynamics 365 to share leads, contacts, accounts, opportunities, activities, and owners with the Account Qualification Agent (AQA) and outbound workflows. Sales Qualifier reads CRM data and can write outreach activities and opt-out status back to the CRM. It does not otherwise modify CRM records.
+Connect Sales Qualifier to Salesforce or Microsoft Dynamics 365 to make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and outbound workflows. Sales Qualifier reads CRM data and can write outreach activities and opt-out status back to the CRM. It does not otherwise modify CRM records.
 
 This article explains how to manage a connection, map fields, sync activities, and configure email opt-out. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
@@ -43,7 +43,7 @@ For the Knowledge Center, see [Knowledge Center](knowledge-center.md).
 
 ## Manage CRM connections
 
-Select **[!UICONTROL CRM connections]**. The page contains a card for **[!UICONTROL Salesforce]** and a card for **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Each card shows one of these statuses:
+Select **[!UICONTROL CRM connections]**. The page contains cards for **[!UICONTROL Salesforce]** and **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Each card shows one of these statuses:
 
 | Status | Meaning |
 | --- | --- |
@@ -76,7 +76,7 @@ An unconfigured card shows **[!UICONTROL Connect]**. A configured card shows **[
 
 1. Select **[!UICONTROL Connect]** (or **[!UICONTROL Save]** when editing).
 
-If Sales Qualifier rejects the credentials, it identifies the cause, such as invalid or expired credentials, missing permissions, or an unknown Dynamics tenant. Correct the value and try again.
+If Sales Qualifier rejects the credentials, it identifies the cause, such as invalid or expired credentials, missing permissions, or an unrecognized Dynamics tenant. Correct the value and try again.
 
 >[!IMPORTANT]
 >
@@ -110,11 +110,11 @@ Inbound mapping controls which CRM fields Sales Qualifier imports and where they
 1. On the **[!UICONTROL Add field]** step, search for and select the CRM fields to import. Then, select **[!UICONTROL Next]**. Each field shows its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
 1. For **[!UICONTROL Prospects]** and **[!UICONTROL Contacts]** sections, turn on **[!UICONTROL Filterable]** for each field that representatives need on the [Prospects](prospects.md) list.
 
-   A field cannot be made filterable if its data type does not support filtering, or if it is already used in another section.
+   A field cannot be made filterable if its data type does not support filtering or if it is already used in another section.
 
 1. On the **[!UICONTROL Preview]** step, confirm your selection and select **[!UICONTROL Add]**.
 
-To change a section later, select **[!UICONTROL Edit]** on the section card. To remove a section or an individual field, use the section's **[!UICONTROL Remove]** action or the delete action on a field row, and confirm.
+To change a section later, select **[!UICONTROL Edit]** on the section card. To remove a section, select **[!UICONTROL Remove]** on the section card. To remove an individual field, select the delete action in the field row. Confirm each removal.
 
 ## Configure activity sync (outbound mapping) {#configure-activity-sync-outbound-mapping}
 
@@ -143,7 +143,7 @@ The opt-out setting appends an unsubscribe footer to every outbound email. Stand
 
 The setting and template save automatically.
 
-When a prospect selects the link, Sales Qualifier stops sending email to that prospect and syncs the opt-out status to the connected CRM.
+When a prospect selects the link, Sales Qualifier stops sending emails to that prospect and syncs the opt-out status to the connected CRM.
 
 ## CRM access scope
 

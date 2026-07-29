@@ -1,0 +1,73 @@
+---
+title: Prospects in Sales Qualifier
+description: Learn how to build, filter, and review your prospect list in Sales Qualifier to prioritize outreach.
+feature: Agentic AI, Sales Insights, Account Journeys
+role: User
+TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+---
+
+# Prospects
+
+Select **[!UICONTROL Prospects]** in the left navigation to view the leads and contacts that you can access. Use the list to review information such as status and last activity.
+
+![Prospects table displaying lead status and last activity for prospect management](./assets/prospects.png){width="800" zoomable="yes"}
+
+* **[!UICONTROL Leads]**—Leads assigned to you in the connected CRM.
+* **[!UICONTROL Contacts]**—Contacts assigned to you in the connected CRM.
+* **[!UICONTROL People list]**—Prospects that you import or add manually.
+
+## Build your prospect list
+
+The prospect list combines people from more than one source:
+
+* **CRM prospects**—Sales Qualifier automatically imports leads and contacts assigned to the connected user. See [Integrations and CRM](integrations.md).
+* **Imported prospects**—Import a prospect list from a CSV file.
+* **Manually added prospects**—Add an individual prospect in Sales Qualifier.
+
+To add prospects that do not come from your CRM:
+
+1. On the **[!UICONTROL Prospects]** page, select **[!UICONTROL People list]**.
+1. Choose **[!UICONTROL + Add people]** and select **[!UICONTROL Import CSV]** or **[!UICONTROL Add person]**.
+
+   * For a CSV import, upload a CSV in the `firstname,email` format.
+   * To add a person manually, enter their details in the form.
+
+1. Select **[!UICONTROL Save]**.
+
+## Filter and find prospects
+
+Select **[!UICONTROL Filter]** to narrow the list. You can filter by:
+
+* Workflow status
+* Created by
+* Job title
+* Account
+* Source
+* Last updated
+
+Administrators can also make mapped CRM fields available as filters. In **[!UICONTROL Admin Settings]**, turn on **[!UICONTROL Filterable]** for each field that representatives use to find prospects. See [Map CRM fields](integrations.md#map-crm-fields-inbound-mapping).
+
+## Review prospect details
+
+Select a prospect to open their profile. Review the signals that matter before you reach out:
+
+* **Activity list**—A chronological list of activities and an AI-generated summary of recent behavior.
+* **Timeline view**—A visual timeline of engagement across channels.
+* **Viewed content**—The web pages and assets that the prospect viewed. Select an item to open it.
+
+>[!MORELIKETHIS]
+>
+>* [Accounts](accounts.md)
+>* [Outbound workflows](outbound-workflows.md)
+>* [AI Assistant](ai-assistant.md)

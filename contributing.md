@@ -1,53 +1,43 @@
 # Contributing
 
-Thanks for choosing to contribute!
+Thank you for contributing.
 
-The following are a set of guidelines to follow when contributing to this project.
+Follow these guidelines when you contribute to this project.
 
-## Code Of Conduct
+## Code of conduct
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
-you are expected to uphold this code. Please report unacceptable behavior to
+This project follows the Adobe [code of conduct](code-of-conduct.md). By participating,
+you agree to uphold this code. Report unacceptable behavior to
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Contributor Guide Documentation
+## Contributor guide
 
-See the [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs contributor guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
-## Have A Question?
+## Ask a question
 
-Start by filing an issue. The existing committers on this project work to reach
-consensus around project direction and issue solutions within issue threads
-(when appropriate).
+File an issue to ask a question. Project committers discuss the project direction
+and proposed solutions in issue threads.
 
-## Contributor License Agreement
+## Contributor license agreement
 
-All third-party contributions to this project must be accompanied by a signed contributor
-license agreement. This gives Adobe permission to redistribute your contributions
-as part of the project. [Sign our CLA](http://opensource.adobe.com/cla.html). You
-only need to submit an Adobe CLA one time, so if you have submitted one previously,
-you are good to go!
+All third-party contributions require a signed contributor license agreement (CLA).
+The agreement gives Adobe permission to redistribute your contributions as part
+of the project. [Sign the CLA](https://opensource.adobe.com/cla.html). You need to
+submit the Adobe CLA only once.
 
-## Code Reviews
+## Code reviews
 
-All submissions should come in the form of pull requests and need to be reviewed
-by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Submit changes as pull requests. Project committers review each pull request.
+For more information, see [About pull requests](https://help.github.com/articles/about-pull-requests/).
 
-<!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
-submitting a pull request!
--->
+## Become a committer
 
-## From Contributor To Committer
+Committers have full write access and help guide the project. Existing committers
+use an internal nomination process and must reach lazy consensus before they
+invite a new committer. Contact an existing committer if you want to become more
+involved.
 
-We love contributions from our community! If you'd like to go a step beyond contributor
-and become a committer with full write access and a say in the project, you must
-be invited to the project. The existing committers employ an internal nomination
-process that must reach lazy consensus (silence is approval) before invitations
-are issued. If you feel you are qualified and want to get more deeply involved,
-feel free to reach out to existing committers to have a conversation about that.
+## Security issues
 
-## Security Issues
-
-Security issues shouldn't be reported on this issue tracker. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+Do not report security issues in this issue tracker. Instead, [contact Adobe security](https://helpx.adobe.com/security/alertus.html).

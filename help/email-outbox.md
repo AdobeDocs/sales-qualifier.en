@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Review the Email Outbox
 description: Learn how to review the emails Sales Qualifier has sent on your behalf, including replies, in the Email Outbox.
 feature: Agentic AI, Sales Insights, Account Journeys

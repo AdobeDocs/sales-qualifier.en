@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Tasks in Sales Qualifier
 description: Learn how to process manual outreach tasks and review agent-suggested prospects in the Sales Qualifier task queue.
 feature: Agentic AI, Sales Insights, Account Journeys

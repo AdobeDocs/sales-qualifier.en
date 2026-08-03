@@ -1,7 +1,3 @@
----
-hold: true
----
-
 # Contributing
 
 Thank you for contributing.

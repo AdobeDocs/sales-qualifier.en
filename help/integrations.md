@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Manage CRM integrations
 description: Learn how to manage CRM connections in Sales Qualifier, map inbound fields, sync activities back to your CRM, and configure global email opt-out.
 feature: Agentic AI, Sales Insights, Account Journeys
@@ -23,7 +22,7 @@ topic_v2:
 
 # Integrations and CRM
 
-Connect Sales Qualifier to Salesforce or Microsoft Dynamics 365 to make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and outbound workflows. Sales Qualifier reads CRM data and can write outreach activities and opt-out status back to the CRM. It does not otherwise modify CRM records.
+Connect Sales Qualifier to Salesforce or Microsoft Dynamics 365 to make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and outbound workflows. Sales Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
 
 This article explains how to manage a connection, map fields, sync activities, and configure email opt-out. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
@@ -109,9 +108,11 @@ Inbound mapping controls which CRM fields Sales Qualifier imports and where they
 
 1. Enter a **[!UICONTROL Section name]** and an optional **[!UICONTROL Description]**. Then, select **[!UICONTROL Next]**.
 1. On the **[!UICONTROL Add field]** step, search for and select the CRM fields to import. Then, select **[!UICONTROL Next]**. Each field shows its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
-1. For **[!UICONTROL Prospects]** and **[!UICONTROL Contacts]** sections, turn on **[!UICONTROL Filterable]** for each field that representatives need on the [Prospects](prospects.md) list.
+1. For **[!UICONTROL Prospects]**, **[!UICONTROL Contacts]**, and **[!UICONTROL Opportunities]** sections, turn on **[!UICONTROL Filterable]** for each field that representatives need on the [Prospects](prospects.md) list.
 
    A field cannot be made filterable if its data type does not support filtering or if it is already used in another section.
+
+   In **[!UICONTROL My Opportunity Contacts]**, filterable opportunity fields appear as separate columns with labels such as **[!UICONTROL Stage (Opportunity)]**. The suffix distinguishes opportunity attributes from fields on the associated contact.
 
 1. On the **[!UICONTROL Preview]** step, confirm your selection and select **[!UICONTROL Add]**.
 
@@ -119,13 +120,13 @@ To change a section later, select **[!UICONTROL Edit]** on the section card. To 
 
 ## Configure activity sync (outbound mapping) {#configure-activity-sync-outbound-mapping}
 
-Activity sync writes Sales Qualifier outreach activities to your CRM. Representatives can then see these activities in the CRM.
+Activity sync writes Sales Qualifier outreach activities to your CRM and Marketo. Email sent, opened, clicked, and replied activities include the outbound workflow name. Representatives can see the activities in the CRM, while marketing teams can use the Marketo activities in lead scoring and engagement timelines.
 
 1. On the connected CRM card, select **[!UICONTROL Manage]**.
 1. Open the **[!UICONTROL Outbound mapping]** tab.
 1. Turn on **[!UICONTROL Activity sync]**. The setting saves immediately.
 
-When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not write outreach activities back.
+When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not synchronize outreach activities to the CRM or Marketo.
 
 >[!NOTE]
 >

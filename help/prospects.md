@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Prospects in Sales Qualifier
 description: Learn how to build, filter, and review your prospect list in Sales Qualifier to prioritize outreach.
 feature: Agentic AI, Sales Insights, Account Journeys
@@ -42,6 +41,7 @@ To add prospects that do not come from your CRM:
 1. Select **[!UICONTROL + Add people]**, then select **[!UICONTROL Import CSV]** or **[!UICONTROL Add person]**.
 
    * For a CSV import, upload a CSV in the `firstname,email` format.
+     First name and email are required. Last name is optional. The CSV template does not include the CRM lead ID column, but you can add the column and its values to the file before import. If the import fails, review the error message for the fields or values to correct, then upload the file again.
    * To add a person manually, enter their details in the form.
 
 1. Select **[!UICONTROL Save]**.
@@ -59,11 +59,14 @@ Select **[!UICONTROL Filter]** to narrow the list. You can filter by:
 
 Administrators can also make mapped CRM fields available as filters. In **[!UICONTROL Admin Settings]**, turn on **[!UICONTROL Filterable]** for each field that representatives use to find prospects. See [Map CRM fields](integrations.md#map-crm-fields-inbound-mapping).
 
+In **[!UICONTROL My Opportunity Contacts]**, you can also filter contacts by fields from their associated opportunities, such as stage, type, and close date. Opportunity fields have labels such as **[!UICONTROL Stage (Opportunity)]**, which distinguishes them from contact fields. Your administrator controls which opportunity fields are available as filters.
+
 ## Review prospect details
 
 Select a prospect to open their profile. Review the signals that matter before you reach out:
 
-* **Activity list**—A chronological list of activities and an AI-generated summary of recent behavior.
+* **AI person summary**—An AI-written snapshot of the lead or contact and their recent engagement. Use the summary to understand the person at a glance before reviewing individual activities. AI person summaries are available on instances running Adobe Journey Optimizer B2B Edition Prime or Ultimate.
+* **Activity list**—A chronological list of activities and recent behavior.
 * **Timeline view**—A visual timeline of engagement across channels.
 * **Viewed content**—Web pages and assets that the prospect viewed. Select an item to open it.
 

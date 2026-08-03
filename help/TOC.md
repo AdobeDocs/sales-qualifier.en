@@ -1,9 +1,7 @@
 ---
-hold: true
 user-guide-title: Sales Qualifier
 user-guide-description: Learn how to use Sales Qualifier to automate prospect qualification, outreach, and buyer engagement for B2B sales teams.
 ---
-
 # Sales Qualifier guide {#using}
 
 + [Overview](overview.md)

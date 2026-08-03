@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Accounts in Sales Qualifier
 description: Learn how to review account intelligence in Sales Qualifier, including AI research, recent news, opportunities, and top engaged contacts, to prioritize outreach.
 feature: Agentic AI, Sales Insights, Account Journeys
@@ -58,7 +57,7 @@ Use the buttons below the overview to switch between account views. The availabl
 
 | View | What it shows |
 | --- | --- |
-| **[!UICONTROL Opportunities]** | Open opportunities linked to the account, with key fields for each. Select **[!UICONTROL View all]** to see the full list in a table. |
+| **[!UICONTROL Opportunities]** | Open opportunities linked to the account, with key fields for each. Select **[!UICONTROL View all]** to see the full list in a table. Opportunity details, such as stage, type, and close date, can also be used to filter the account's contacts in **[!UICONTROL My Opportunity Contacts]** when an administrator makes those fields filterable. |
 | **[!UICONTROL Top Members]** | The account's top engaged contacts, ranked by engagement. Each contact shows their job title, email address, engagement score, and urgency indicator. |
 | **[!UICONTROL Intent data]** | Buying intent signals for the account, such as the products and topics the account is researching. |
 | **[!UICONTROL Account Team Members]** | People assigned to the account, with their email, job title, territory, and product group. |

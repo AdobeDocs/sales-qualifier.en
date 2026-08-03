@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Build a Knowledge Center playbook
 description: Learn how to upload sales collateral and build a playbook in the Sales Qualifier Knowledge Center to inform AI outreach and assistance.
 feature: Agentic AI, Sales Insights, Account Journeys

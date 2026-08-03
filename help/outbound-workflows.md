@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create and manage outbound workflows
 description: Learn how to create, review, and manage AI-generated outbound workflows in Sales Qualifier to run goal-driven outreach cadences.
 feature: Agentic AI, Sales Insights, Account Journeys
@@ -68,7 +67,7 @@ The goal defines the intended outcome and guides targeting, cadence, and email g
 
 1. Select **[!UICONTROL Start from scratch]** to write your own goal, or select **[!UICONTROL Start from template]** to use a saved template.
 
-1. Select one of the **[!UICONTROL Recommended goals]** as a starting point, or enter your own goal.
+1. Select one of the **[!UICONTROL Recommended goals]** matched to your company. Each recommendation includes a short explanation of why it fits. Select a recommendation to fill in the goal, select **[!UICONTROL View all]** to browse the full set of recommendations, or enter your own goal. You can also choose from the **[!UICONTROL Popular goals]** list.
 1. Select **[!UICONTROL Next: Targeting]**.
 
 State a specific outcome in the goal. For example, enter `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` instead of `Promote campaign automation`.
@@ -100,6 +99,8 @@ If the cadence is not what you want, select **[!UICONTROL Regenerate]** and ente
 
 AI rewrites the full cadence based on your instruction. To adjust one email touchpoint, edit its prompt instead of regenerating the entire cadence.
 
+You can send the first touchpoint as soon as a prospect is added to the workflow. For later touchpoints, set the delay in days, hours, or minutes to control the cadence more precisely.
+
 #### Use the Knowledge Center in prompts
 
 If your organization has built a [Knowledge Center](knowledge-center.md) playbook, refer to it in the prompt. Name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
@@ -115,9 +116,10 @@ The **[!UICONTROL Settings]** step controls how the workflow runs.
 1. Review the **[!UICONTROL Workflow name]** and change it if needed.
 1. In **[!UICONTROL Max prospects per workflow]**, confirm the maximum number of prospects that the workflow can manage at once.
 1. Set the **[!UICONTROL Send window]** for the hours when outbound emails are allowed to send.
-1. Turn on **[!UICONTROL Skip Weekends]** to move any touchpoint that falls on a weekend to the next business day.
+1. Select the days of the week when emails can send. To avoid weekend sends, select only the weekdays instead of using a separate **[!UICONTROL Skip Weekends]** setting.
+1. Choose whether to send during each prospect's most active hours.
 1. To stop follow-up touchpoints automatically once a prospect books a meeting, turn on **[!UICONTROL Meeting Booking Pause]**.
-1. Confirm that the **[!UICONTROL Timezone]** matches your audience.
+1. Choose whether to use each prospect's time zone or the workflow **[!UICONTROL Timezone]** for send timing. If you use the workflow time zone, confirm that it matches your audience.
 1. Select **[!UICONTROL Save and add prospects]**.
 
 The opt-out footer is configured globally by an administrator and applies to outbound emails independently of the workflow settings. See [Configure global email opt-out](integrations.md#configure-global-email-opt-out).
@@ -185,7 +187,7 @@ Approval activates the cadence for a prospect. The system does not send emails t
 1. In the left prospect list, select the prospects whose emails you have reviewed and are ready to send.
 1. Select **[!UICONTROL Approve and enroll prospects]** in the lower-right corner.
 
-Approved emails are sent during the workflow send window in the configured time zone. Each touchpoint is scheduled relative to the enrollment date. Unapproved prospects remain in **[!UICONTROL Ready for Review]**.
+Approved emails are sent according to the workflow's selected days, send window, active-hours option, and time-zone setting. The first touchpoint can send immediately after enrollment; each later touchpoint follows its configured delay. Unapproved prospects remain in **[!UICONTROL Ready for Review]**.
 
 ## Manage existing workflows
 

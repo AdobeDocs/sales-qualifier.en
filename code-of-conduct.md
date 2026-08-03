@@ -1,7 +1,3 @@
----
-hold: true
----
-
 # Adobe Code of Conduct
 
 ## Our Pledge

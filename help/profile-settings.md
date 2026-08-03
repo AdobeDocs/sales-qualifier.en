@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Configure profile settings
 description: Learn how to configure your email connection, signature, and calendar availability in Sales Qualifier profile settings.
 feature: Agentic AI, Sales Insights, Account Journeys

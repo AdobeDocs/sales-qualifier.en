@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Outbound performance in Sales Qualifier
 description: Learn how to review email, prospect engagement, and meeting-booking performance in Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys

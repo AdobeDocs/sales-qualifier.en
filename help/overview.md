@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Sales Qualifier overview
 description: Learn about Sales Qualifier, an AI-driven app that automates prospect qualification, outreach, and buyer engagement for B2B sales teams.
 feature: Agentic AI, Sales Insights, Account Journeys

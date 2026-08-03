@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Manage CRM integrations
 description: Learn how to manage CRM connections in Sales Qualifier, map inbound fields, sync activities back to your CRM, and configure global email opt-out.
 feature: Agentic AI, Sales Insights, Account Journeys

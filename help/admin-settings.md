@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Admin settings
 description: Learn how to manage CRM fields, activity synchronization, email opt-out, and other Sales Qualifier administration settings.
 feature: Agentic AI, Sales Insights, Account Journeys

@@ -1,3 +1,7 @@
+---
+hold: true
+---
+
 # Contribute to the documentation
 
 We welcome contributions from community members and Adobe employees.

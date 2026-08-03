@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Accounts in Sales Qualifier
 description: Learn how to review account intelligence in Sales Qualifier, including AI research, recent news, opportunities, and top engaged contacts, to prioritize outreach.
 feature: Agentic AI, Sales Insights, Account Journeys

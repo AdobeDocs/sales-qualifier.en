@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Prospects in Sales Qualifier
 description: Learn how to build, filter, and review your prospect list in Sales Qualifier to prioritize outreach.
 feature: Agentic AI, Sales Insights, Account Journeys

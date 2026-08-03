@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Use AI Assistant
 description: Learn how to use AI Assistant in Sales Qualifier to research accounts, draft outreach, and get answers based on your CRM, engagement, and Knowledge Center data.
 feature: Agentic AI, Sales Insights, Account Journeys

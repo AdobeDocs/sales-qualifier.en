@@ -1,4 +1,5 @@
 ---
+hold: true
 title: User roles and permissions
 description: Learn how Sales Qualifier user groups control application and administration access.
 feature: Agentic AI, Sales Insights, Account Journeys

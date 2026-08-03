@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Get started with Sales Qualifier
 description: Learn how to complete the one-time administrator setup for Sales Qualifier, including user groups and a CRM connection, before your team starts using the application.
 feature: Agentic AI, Sales Insights, Account Journeys

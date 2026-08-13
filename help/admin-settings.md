@@ -20,7 +20,7 @@ internal-label: Administration
 
 Use **[!UICONTROL Admin Settings]** to configure CRM integrations, manage the Knowledge Center, and configure email opt-out.
 
-Sales Qualifier connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) and outbound workflows a consistent view of leads, accounts, contacts, activities, and owners. Sales Qualifier can also write outreach activities and opt-out status back to the CRM and synchronize outreach activities to Marketo.
+Sales Qualifier connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) and Engagement Plans a consistent view of leads, accounts, contacts, activities, and owners. Sales Qualifier can also write outreach activities and opt-out status back to the CRM and synchronize outreach activities to Marketo.
 
 To configure CRM connections, field mapping, and activity synchronization, go to **[!UICONTROL Administration]** > **[!UICONTROL Admin Settings]** > **[!UICONTROL CRM connections]**. Standard users can use the configured CRM data and filters but cannot change these settings. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
@@ -68,7 +68,7 @@ Mapped fields appear in the corresponding areas of Sales Qualifier:
 
 1. From **[!UICONTROL CRM connections]**, select **[!UICONTROL Manage]** for the connected CRM.
 1. Open **[!UICONTROL Outbound mapping]**.
-1. Turn on **[!UICONTROL Activity sync]** to sync Sales Qualifier outreach activities to the CRM and Marketo. Email sent, opened, clicked, and replied activities include the outbound workflow name.
+1. Turn on **[!UICONTROL Activity sync]** to sync Sales Qualifier outreach activities to the CRM and Marketo. Email sent, opened, clicked, and replied activities include the Engagement Plan name.
 
 When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not synchronize outreach activities to the CRM or Marketo.
 

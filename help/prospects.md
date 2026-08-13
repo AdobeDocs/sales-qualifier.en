@@ -31,7 +31,7 @@ Select **[!UICONTROL Prospects]** in the left navigation to view the leads and c
 
 The prospect list combines people from more than one source:
 
-* **CRM prospects**—Sales Qualifier automatically imports leads and contacts assigned to the connected user. See [Integrations and CRM](integrations.md).
+* **CRM prospects**—Sales Qualifier automatically imports leads and contacts assigned to the connected user. See [Integrations](integrations.md).
 * **Imported prospects**—Prospects imported from a CSV file.
 * **Manually added prospects**—Individual prospects added in Sales Qualifier.
 
@@ -50,7 +50,7 @@ To add prospects that do not come from your CRM:
 
 Select **[!UICONTROL Filter]** to narrow the list. You can filter by:
 
-* Workflow status
+* Engagement Plan status
 * Created by
 * Job title
 * Account
@@ -73,5 +73,5 @@ Select a prospect to open their profile. Review the signals that matter before y
 >[!MORELIKETHIS]
 >
 >* [Accounts](accounts.md)
->* [Outbound workflows](outbound-workflows.md)
+>* [Engagement Plans](outbound-workflows.md)
 >* [AI Assistant](ai-assistant.md)

@@ -15,7 +15,7 @@ topic_v2:
 
 # Email Outbox
 
-Use **[!UICONTROL Email Outbox]** to review emails sent by outbound workflows and any replies. You can confirm what was sent, read replies in context, and open the workflow that sent a message.
+Use **[!UICONTROL Email Outbox]** to review emails sent by Engagement Plans and any replies. You can confirm what was sent, read replies in context, and open the Engagement Plan that sent a message.
 
 The page has two panels: a list of emails on the left and a reading view on the right. Drag the divider between them to resize the list.
 
@@ -25,24 +25,24 @@ The **[!UICONTROL All emails]** list contains one row for each sent email, with 
 
 When you open the page, Sales Qualifier selects the first email automatically so its content appears on the right.
 
-If you have not sent any emails, the list shows _Your outbox is empty_. After you send or schedule an email through an outbound workflow, it appears here.
+If you have not sent any emails, the list shows _Your outbox is empty_. After you send or schedule an email through an Engagement Plan, it appears here.
 
 ## Read an email and its replies
 
 Select an email in the list to open it on the right. The reading view has three parts:
 
 * **Recipient**—The recipient's name, job title, and account, when available.
-* **Subject and workflow**—The subject, the name of the [outbound workflow](outbound-workflows.md) that sent the email, and the workflow status. Select the workflow name to open it.
+* **Subject and Engagement Plan**—The subject, the name of the [Engagement Plan](outbound-workflows.md) that sent the email, and the Engagement Plan status. Select the Engagement Plan name to open it.
 * **Conversation**—The sent email and any replies in a thread. Each entry identifies whether the message was sent or received and includes a timestamp.
 
 Emails render as they were sent, including personalized content. If the body of a message is not available, Sales Qualifier shows a short _Email content not available_ note in its place.
 
 >[!NOTE]
 >
->The Email Outbox is read-only. To follow up with a prospect who replied, open the outbound workflow or prospect. To review email and reply performance, see [Outbound performance](performance.md).
+>The Email Outbox is read-only. To follow up with a prospect who replied, open the Engagement Plan or prospect. To review email and reply performance, see [Outbound performance](performance.md).
 
 >[!MORELIKETHIS]
 >
->* [Outbound workflows](outbound-workflows.md)
+>* [Engagement Plans](outbound-workflows.md)
 >* [Outbound performance](performance.md)
 >* [Tasks](tasks.md)

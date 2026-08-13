@@ -29,7 +29,7 @@ Sales Qualifier uses two required user groups to separate sales tasks from organ
 
 | Group | Who belongs | What it grants |
 | --- | --- | --- |
-| `Sales Qualifier` | Every user, including administrators | Access to the application: Prospects, Accounts, Outbound workflows, Tasks, Performance, and Profile settings. |
+| `Sales Qualifier` | Every user, including administrators | Access to the application: Prospects, Accounts, Engagement Plans, Tasks, Performance, and Profile settings. |
 | `Sales Qualifier Admins` | Administrators only, in addition to the `Sales Qualifier` group | Access to **[!UICONTROL Admin Settings]**, which governs CRM connections, the Knowledge Center, and compliance settings for the whole organization. |
 
 Standard users need only the `Sales Qualifier` group. Administrators need membership in both groups. See [Get started](getting-started.md) to create these groups.
@@ -44,15 +44,15 @@ Organizations can also create an optional `Sales Qualifier BDR managers` group. 
 
 | Setting | Where to configure it | Effect |
 | --- | --- | --- |
-| CRM connection and field mapping | [Integrations and CRM](integrations.md#map-crm-fields-inbound-mapping) | Determines which CRM fields appear for a prospect or account and which fields are available as filters. |
-| Global email opt-out | [Integrations and CRM](integrations.md#configure-global-email-opt-out) | Adds an unsubscribe footer to every outbound email. |
+| CRM connection and field mapping | [Integrations](integrations.md#map-crm-fields-inbound-mapping) | Determines which CRM fields appear for a prospect or account and which fields are available as filters. |
+| Global email opt-out | [Integrations](integrations.md#configure-global-email-opt-out) | Adds an unsubscribe footer to every outbound email. |
 | Knowledge Center and playbook | [Knowledge Center](knowledge-center.md) | Makes the company playbook available in outbound prompts and [AI Assistant](ai-assistant.md). |
-| Activity sync | [Integrations and CRM](integrations.md#configure-activity-sync-outbound-mapping) | Determines whether Sales Qualifier outreach activities appear in the CRM. |
+| Activity sync | [Integrations](integrations.md#configure-activity-sync-outbound-mapping) | Determines whether Sales Qualifier outreach activities appear in the CRM. |
 
 Standard users can use these settings but cannot change them. If an expected filter, playbook reference, or CRM field is missing, contact an administrator.
 
 >[!MORELIKETHIS]
 >
 >* [Get started](getting-started.md)
->* [Integrations and CRM](integrations.md)
+>* [Integrations](integrations.md)
 >* [Knowledge Center](knowledge-center.md)

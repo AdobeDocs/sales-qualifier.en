@@ -1,8 +1,8 @@
 ---
-title: Manage CRM integrations
-description: Learn how to manage CRM connections in Sales Qualifier, map inbound fields, sync activities back to your CRM, and configure global email opt-out.
+title: Manage integrations
+description: Learn how to connect Outlook, manage CRM connections, map inbound fields, sync activities, and configure global email opt-out in Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
-role: Admin
+role: User, Admin
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
@@ -20,15 +20,43 @@ topic_v2:
     internal-label: Insights
 ---
 
-# Integrations and CRM
+# Integrations
 
-Connect Sales Qualifier to Salesforce or Microsoft Dynamics 365 to make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and outbound workflows. Sales Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
+Connect Outlook to send emails, recognize prospect replies, and schedule meetings. You can also connect Sales Qualifier to Salesforce or Microsoft Dynamics 365 to make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and Engagement Plans. Sales Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
 
-This article explains how to manage a connection, map fields, sync activities, and configure email opt-out. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
+This article explains how to connect Outlook, manage a CRM connection, map fields, sync activities, and configure email opt-out. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
 >[!IMPORTANT]
 >
->Integration settings apply to the entire organization. To access them, you must belong to the `Sales Qualifier` and `Sales Qualifier Admins` user groups. Standard users can use the configured CRM data and filters but cannot change the settings. See [User roles and permissions](user-roles-permissions.md).
+>The Outlook connection is per representative. The CRM and compliance settings described later in this article apply to the entire organization. To access those organization-wide settings, you must belong to the `Sales Qualifier` and `Sales Qualifier Admins` user groups. Standard users can use the configured CRM data and filters but cannot change the settings. See [User roles and permissions](user-roles-permissions.md).
+
+## Connect Outlook
+
+Each representative connects their own Outlook account:
+
+1. Select **[!UICONTROL Connect Outlook]**.
+1. Sign in with your Microsoft account.
+1. Review and approve the requested access.
+
+The connection lets Sales Qualifier send from your mailbox, recognize when a prospect replies, and schedule meetings on your calendar.
+
+When you connect, you approve access that allows Sales Qualifier to:
+
+* Recognize replies from prospects.
+* Create and send email on your behalf.
+* Use your calendar to schedule meetings.
+* Read your mailbox time zone and working hours for scheduling.
+* Stay connected in the background so that these features continue to work without requiring you to sign in again.
+
+### Outlook approvals (if required)
+
+By default, no administrator action is required. Each representative approves access for themselves when they connect Outlook.
+
+If your organization has turned off user consent to third-party apps in Microsoft 365 or Microsoft Entra, a Microsoft 365 or Entra administrator must approve Sales Qualifier once for the entire organization. The administrator completes this approval before representatives connect their Outlook accounts. After the organization-wide approval, each representative can connect their account.
+
+### How Sales Qualifier handles your mailbox data
+
+Sales Qualifier reads only replies to emails that it sent, not the rest of your inbox. It does not store incoming attachments or emails outside an active engagement. Stored sign-in credentials are encrypted.
 
 ## Open CRM settings
 
@@ -89,7 +117,7 @@ If Sales Qualifier rejects the credentials, it identifies the cause, such as inv
 
 >[!WARNING]
 >
->When you disconnect a CRM, outbound workflows pause for all prospects in your organization, and no new prospects sync from your CRM until you reconnect.
+>When you disconnect a CRM, Engagement Plans pause for all prospects in your organization, and no new prospects sync from your CRM until you reconnect.
 
 ## Map CRM fields (inbound mapping) {#map-crm-fields-inbound-mapping}
 
@@ -120,7 +148,7 @@ To change a section later, select **[!UICONTROL Edit]** on the section card. To 
 
 ## Configure activity sync (outbound mapping) {#configure-activity-sync-outbound-mapping}
 
-Activity sync writes Sales Qualifier outreach activities to your CRM and Marketo. Email sent, opened, clicked, and replied activities include the outbound workflow name. Representatives can see the activities in the CRM, while marketing teams can use the Marketo activities in lead scoring and engagement timelines.
+Activity sync writes Sales Qualifier outreach activities to your CRM and Marketo. Email sent, opened, clicked, and replied activities include the Engagement Plan name. Representatives can see the activities in the CRM, while marketing teams can use the Marketo activities in lead scoring and engagement timelines.
 
 1. On the connected CRM card, select **[!UICONTROL Manage]**.
 1. Open the **[!UICONTROL Outbound mapping]** tab.

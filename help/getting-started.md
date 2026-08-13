@@ -69,7 +69,7 @@ You can also create an optional `Sales Qualifier BDR managers` group. Members of
 
 ## Connect your CRM
 
-Sales Qualifier connects to Salesforce or Microsoft Dynamics 365 to give BDRs a unified view of users, leads, contacts, accounts, opportunities, owner mappings, and related activities. The initial connection requires read-only access to this CRM data. Work with your CRM administrator to prepare credentials before you connect Sales Qualifier. See [Integrations and CRM](integrations.md) for integration details.
+Sales Qualifier connects to Salesforce or Microsoft Dynamics 365 to give BDRs a unified view of users, leads, contacts, accounts, opportunities, owner mappings, and related activities. The initial connection requires read-only access to this CRM data. Work with your CRM administrator to prepare credentials before you connect Sales Qualifier. See [Integrations](integrations.md) for integration details.
 
 >[!PREREQUISITES]
 >
@@ -174,12 +174,12 @@ After connecting the CRM, configure inbound mapping to choose which CRM fields a
 
 Prospect fields appear on the **[!UICONTROL Person]** tab, account fields appear on the **[!UICONTROL Account]** tab, and opportunity fields appear in the **[!UICONTROL Account Opportunity]** section. Turn on **[!UICONTROL Filterable]** for each mapped field that representatives need as a filter.
 
-See [Integrations and CRM](integrations.md#map-crm-fields-inbound-mapping) to manage field mapping and synchronization.
+See [Integrations](integrations.md#map-crm-fields-inbound-mapping) to manage field mapping and synchronization.
 
 ## Next steps
 
 >[!MORELIKETHIS]
 >
 >* [Prospects](prospects.md)
->* [Outbound workflows](outbound-workflows.md)
+>* [Engagement Plans](outbound-workflows.md)
 >* [User roles and permissions](user-roles-permissions.md)

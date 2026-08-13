@@ -55,6 +55,6 @@ In both cases, the generated content reflects the messaging in your playbook rat
 
 >[!MORELIKETHIS]
 >
->* [Outbound workflows](outbound-workflows.md)
+>* [Engagement Plans](outbound-workflows.md)
 >* [AI Assistant](ai-assistant.md)
 >* [User roles and permissions](user-roles-permissions.md)

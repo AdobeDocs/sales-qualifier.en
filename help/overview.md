@@ -28,7 +28,7 @@ BDRs can use the browser and email plugins to access business intelligence direc
 ## What you can do in Sales Qualifier
 
 * **Prioritize prospects and accounts** with AI-generated activity summaries and signal-based prioritization.
-* **Build goal-driven outbound workflows** in which AI proposes a cadence and drafts personalized emails for each prospect.
+* **Build goal-driven Engagement Plans** in which AI proposes a cadence and drafts personalized emails for each prospect.
 * **Process outreach in one queue** for phone calls, LinkedIn InMails, and email reviews.
 * **Book meetings automatically** by connecting your calendar and inserting a personal booking link into your cadence.
 * **Inform AI outreach with your own materials** by building a playbook in the Knowledge Center.
@@ -73,11 +73,11 @@ Prioritize outreach with account-level pipeline and engagement data.
 :::card
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Outbound workflows
+Engagement Plans
 
 Create goal-driven cadences with AI-generated, personalized emails.
 
-[Outbound workflows](outbound-workflows.md)
+[Engagement Plans](outbound-workflows.md)
 :::
 
 :::card
@@ -113,11 +113,11 @@ Build a playbook that grounds AI outreach and assistance in your materials.
 :::card
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Integrations and CRM
+Integrations
 
 Connect Salesforce or Microsoft Dynamics 365 and map your fields.
 
-[Integrations and CRM](integrations.md)
+[Integrations](integrations.md)
 :::
 
 :::card

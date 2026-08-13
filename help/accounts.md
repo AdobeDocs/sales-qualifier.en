@@ -61,11 +61,11 @@ Use the buttons below the overview to switch between account views. The availabl
 | **[!UICONTROL Top Members]** | The account's top engaged contacts, ranked by engagement. Each contact shows their job title, email address, engagement score, and urgency indicator. |
 | **[!UICONTROL Intent data]** | Buying intent signals for the account, such as the products and topics the account is researching. |
 | **[!UICONTROL Account Team Members]** | People assigned to the account, with their email, job title, territory, and product group. |
-| **[!UICONTROL CRM fields]** | Account fields imported from your CRM, as configured in inbound mapping. See [Integrations and CRM](integrations.md#map-crm-fields-inbound-mapping). |
+| **[!UICONTROL CRM fields]** | Account fields imported from your CRM, as configured in inbound mapping. See [Integrations](integrations.md#map-crm-fields-inbound-mapping). |
 
 From the **[!UICONTROL Top Members]** view, take either of these actions for a contact:
 
-* **[!UICONTROL Add to Outbound Workflow]**—Enroll the contact in an [outbound workflow](outbound-workflows.md).
+* **[!UICONTROL Add to Engagement Plan]**—Enroll the contact in an [Engagement Plan](outbound-workflows.md).
 * **[!UICONTROL Add to Marketo campaign]**—Trigger a [!DNL Marketo] campaign for the contact.
 
 ## Research the account
@@ -84,11 +84,11 @@ Account intelligence is most valuable when it shapes what you send:
 
 * Reference a recent news item or research signal to make your opening relevant instead of using a generic pitch.
 * Check open opportunities and pipeline value to decide whether to prioritize the account.
-* Use **[!UICONTROL Top Members]** to identify who to contact, then enroll them in an outbound workflow.
+* Use **[!UICONTROL Top Members]** to identify who to contact, then enroll them in an Engagement Plan.
 * Ask [AI Assistant](ai-assistant.md) to develop positioning for the account before a call.
 
 >[!MORELIKETHIS]
 >
 >* [Prospects](prospects.md)
->* [Outbound workflows](outbound-workflows.md)
+>* [Engagement Plans](outbound-workflows.md)
 >* [AI Assistant](ai-assistant.md)

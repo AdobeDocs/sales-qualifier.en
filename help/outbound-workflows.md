@@ -201,6 +201,13 @@ Use these filters to keep shared Engagement Plans and results focused:
 * On **[!UICONTROL Engaged Prospects]** and **[!UICONTROL Performance]**, use **[!UICONTROL Enrolled by]** to filter prospects by the person who enrolled them. The filter defaults to prospects that you enrolled.
 * On the **[!UICONTROL Browse]** tab, use the sharing filter to select **[!UICONTROL Shared by me]**, **[!UICONTROL Shared with me]**, **[!UICONTROL Private]**, or **[!UICONTROL All]**.
 
+## Out-of-office reply handling
+
+When a prospect replies with an out-of-office message, the Engagement Plan handles it automatically.
+
+* **Automatic resume**: On by default. If the out-of-office reply includes a return date, the Engagement Plan resumes the cadence on that date. If no return date is given, the Engagement Plan resumes after a resume-after buffer that your team can configure.
+* **Manual options**: You can also resume, pause, or skip the prospect manually. See [Manage existing Engagement Plans](#manage-existing-engagement-plans).
+
 ## Manage existing Engagement Plans
 
 On the **[!UICONTROL Engagement Plans]** page, the **[!UICONTROL Browse]** tab lists every Engagement Plan available to you. Each card shows the goal, configured touchpoints, and performance metrics. Use this view to monitor Engagement Plans, review drafts, or add prospects.

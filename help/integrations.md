@@ -22,7 +22,7 @@ topic_v2:
 
 # Integrations
 
-Connect Outlook to send emails, recognize prospect replies, and schedule meetings. You can also connect Sales Qualifier to Salesforce or Microsoft Dynamics 365 to make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and Engagement Plans. Sales Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
+Connect Outlook to send emails, recognize prospect replies, and schedule meetings. To make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and Engagement Plans, you can also connect Sales Qualifier to Salesforce or Microsoft Dynamics 365. Sales Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
 
 This article explains how to connect Outlook, manage a CRM connection, map fields, sync activities, and configure email opt-out. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
@@ -46,7 +46,7 @@ When you connect, you approve access that allows Sales Qualifier to:
 * Create and send email on your behalf.
 * Use your calendar to schedule meetings.
 * Read your mailbox time zone and working hours for scheduling.
-* Stay connected in the background so that these features continue to work without requiring you to sign in again.
+* Remain signed in automatically so that these features continue to work without requiring you to sign in again.
 
 ### Outlook approvals (if required)
 
@@ -158,7 +158,22 @@ When activity sync is off, Sales Qualifier continues to use inbound CRM data but
 
 >[!NOTE]
 >
->Activity sync requires write access in your CRM. If the required permission is missing, the switch is disabled and Sales Qualifier prompts you to contact your administrator. Work with your CRM administrator to grant activity write access.
+>Activity sync requires write access in your CRM. If the required permission is missing, the switch is disabled and Sales Qualifier prompts you to contact your administrator. To grant activity write access, work with your CRM administrator.
+
+## Turn on Marketo engagement filtering {#turn-on-marketo-engagement-filtering}
+
+Marketo engagement filtering lets representatives find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks. See [Filter by Marketo engagement](prospects.md#filter-by-marketo-engagement).
+
+An administrator turns on Marketo engagement filtering for the relevant org and sandbox. After it is on, a marketer completes a one-time setup in [!DNL Marketo].
+
+To flow a Smart Campaign's activity into Sales Qualifier:
+
+1. In [!DNL Marketo], open the Smart Campaign whose activity you want to flow into Sales Qualifier.
+1. Add a Call Webhook step to the Smart Campaign flow.
+
+After the webhook step is in place, activity from that Smart Campaign flows into Sales Qualifier, and representatives can filter their prospects by it.
+
+Marketo engagement filtering is available in all production regions: North America, EMEA, and Australia.
 
 ## Configure global email opt-out {#configure-global-email-opt-out}
 

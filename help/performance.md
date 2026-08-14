@@ -9,7 +9,6 @@ product_v2:
     internal-label: CX Enterprise
     internal-label: Insights
 ---
-
 # Outbound performance in Sales Qualifier
 
 In the left navigation, select **[!UICONTROL Outbound performance]** to track outbound activity and results across your team. The dashboard has two views: **[!UICONTROL Organization Performance]** and **[!UICONTROL Campaign Performance]**.

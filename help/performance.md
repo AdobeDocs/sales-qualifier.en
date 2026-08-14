@@ -1,44 +1,65 @@
 ---
 title: Outbound performance in Sales Qualifier
-description: Learn how to review email, prospect engagement, and meeting-booking performance in Sales Qualifier.
+description: Learn how to review Organization Performance and Campaign Performance reports in Sales Qualifier to track outbound activity and results.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
 
 # Outbound performance
 
-In the left navigation, expand **[!UICONTROL Analytics]** and select **[!UICONTROL Outbound performance]**. Use the reports to compare outreach results and identify opportunities to improve your strategy.
+In the left navigation, select **[!UICONTROL Outbound performance]** to track outbound activity and results across your team. The dashboard has two views: **[!UICONTROL Organization Performance]** and **[!UICONTROL Campaign Performance]**.
 
-Use **[!UICONTROL Time period]** in the upper-right corner to change the reporting window, such as **[!UICONTROL Last 30 days]**. Both tabs use the selected time period.
+## Filter and time period
 
-## Email performance
+These controls apply across both views and all tabs:
 
-The **[!UICONTROL Email performance]** tab contains one row for each BDR email address. Use it to compare volume and effectiveness across representatives:
+* **[!UICONTROL Filters]**: Select **[!UICONTROL Filters]** to narrow the dashboard by team member and campaign.
+* **[!UICONTROL Time period]**: Select a reporting window of 7, 15, 30, 60, 90, 180, or 365 days.
 
-| Column | Description |
-| --- | --- |
-| **[!UICONTROL BDR email]** | The address that sent the outbound emails. |
-| **[!UICONTROL Sent]** | Emails sent in the selected time period. |
-| **[!UICONTROL Delivered]** | Emails that reached the recipient's inbox. |
-| **[!UICONTROL Opened]** | Emails the recipient opened. |
-| **[!UICONTROL Clicked]** | Emails in which the recipient selected at least one link. |
-| **[!UICONTROL Replies]** | Emails that received a reply. |
-| **[!UICONTROL Bounced]** | Emails that were not delivered. |
+## Organization performance
+
+**[!UICONTROL Organization Performance]** reports on outbound activity and results across the team. It has three tabs: **[!UICONTROL Overview]**, **[!UICONTROL Emails]**, and **[!UICONTROL Tasks]**.
+
+### Overview tab
+
+The **[!UICONTROL Overview]** tab summarizes outbound results at a glance:
+
+* **Tiles**: Pipeline, email engagement, and manual activity, each with a trend change against the previous period.
+* **Performance trend chart**: Outbound performance over the selected time period.
+* **[!UICONTROL Team Activity]** table: Activity broken out by representative.
+
+### Emails tab
+
+The **[!UICONTROL Emails]** tab reports on email volume and effectiveness:
+
+* **Tiles**: Emails sent, opened, clicked, and replied to.
+* **Weekly email trend chart**: Email activity by week.
+* Per-representative email performance table.
 
 Sales Qualifier assigns separate statuses to out-of-office replies and bounces so that you can distinguish them from prospect engagement.
 
-## Engagement performance
+### Tasks tab
 
-The **[!UICONTROL Engagement performance]** tab reports on prospect engagement and meeting-booking outcomes for the same time period. See [Meeting booking](outbound-workflows.md#meeting-booking) for how bookings are generated.
+The **[!UICONTROL Tasks]** tab reports on manual outreach:
+
+* **Tiles**: Phone call and LinkedIn message completion, including completion rate.
+* **Task trend chart**: Task completion over the selected time period.
+* Per-representative task table.
+
+## Campaign performance
+
+**[!UICONTROL Campaign Performance]** reports on outbound results by Engagement Plan campaign:
+
+* **KPI tiles**: Active prospects, open rate, click rate, reply rate, and meetings booked.
+* **Campaign metrics trend chart**: Campaign KPIs over the selected time period.
+* **[!UICONTROL Campaigns]** table: Email, meeting, call, and LinkedIn message activity for each campaign. Expand a campaign row to see representative-level detail for that campaign.
+
+See [Meeting booking](outbound-workflows.md#meeting-booking) for how bookings are generated.
 
 >[!MORELIKETHIS]
 >

@@ -61,6 +61,19 @@ Administrators can also make mapped CRM fields available as filters. In **[!UICO
 
 In **[!UICONTROL My Opportunity Contacts]**, you can also filter contacts by fields from their associated opportunities, such as stage, type, and close date. Opportunity fields have labels such as **[!UICONTROL Stage (Opportunity)]**, which distinguishes them from contact fields. Your administrator controls which opportunity fields are available as filters.
 
+### Filter by Marketo engagement
+
+Find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks, web visits, form fills, and interesting moments. Engagement appears in near real time, as it happens.
+
+To filter prospects by Marketo engagement:
+
+1. Select **[!UICONTROL Filter]**.
+1. Add a [!DNL Marketo] engagement filter and set the activity type, campaign, or other attributes to focus on the engagement that matters.
+
+Each prospect shows their latest [!DNL Marketo] activity along with recent history.
+
+Marketo engagement filtering is available in all production regions. Your administrator turns it on for your org and sandbox, and a marketer completes a one-time setup in [!DNL Marketo]. See [Turn on Marketo engagement filtering](integrations.md#turn-on-marketo-engagement-filtering).
+
 ## Review prospect details
 
 Select a prospect to open their profile. Review the signals that matter before you reach out:

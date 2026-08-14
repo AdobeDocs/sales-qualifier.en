@@ -87,4 +87,4 @@ Select a prospect to open their profile. Review the signals that matter before y
 >
 >* [Accounts](accounts.md)
 >* [Engagement Plans](outbound-workflows.md)
->* [AI Assistant](ai-assistant.md)
+>* [AI Chat](ai-assistant.md)

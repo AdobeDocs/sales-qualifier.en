@@ -32,7 +32,7 @@ BDRs can use the browser and email plugins to access business intelligence direc
 * **Process outreach in one queue** for phone calls, LinkedIn InMails, and email reviews.
 * **Book meetings automatically** by connecting your calendar and inserting a personal booking link into your cadence.
 * **Inform AI outreach with your own materials** by building a playbook in the Knowledge Center.
-* **Ask questions in natural language** with AI Assistant, which uses your CRM, engagement, and Knowledge Center data.
+* **Ask questions in natural language** with AI Chat, which uses your CRM, engagement, and Knowledge Center data.
 * **Track outreach performance** with email and meeting-booking reports.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476550)
@@ -143,11 +143,11 @@ Understand the user and administrator group model.
 :::card
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-AI Assistant
+AI Chat
 
 Ask questions based on your CRM, engagement, and Knowledge Center data.
 
-[AI Assistant](ai-assistant.md)
+[AI Chat](ai-assistant.md)
 :::
 
 ::::

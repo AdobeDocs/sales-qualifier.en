@@ -49,12 +49,12 @@ After you upload the documents, select **[!UICONTROL Build Playbook]**.
 When the playbook is ready, representatives can use it in two places:
 
 * **Outbound email prompts**—In a touchpoint prompt, name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. See [Generate and review touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
-* **AI Assistant**—Refer to the Knowledge Center in your question. For example, enter `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. See [AI Assistant](ai-assistant.md).
+* **AI Chat**: Refer to the Knowledge Center in your question. For example, enter `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. See [AI Chat](ai-assistant.md).
 
 In both cases, the generated content reflects the messaging in your playbook rather than generic research.
 
 >[!MORELIKETHIS]
 >
 >* [Engagement Plans](outbound-workflows.md)
->* [AI Assistant](ai-assistant.md)
+>* [AI Chat](ai-assistant.md)
 >* [User roles and permissions](user-roles-permissions.md)

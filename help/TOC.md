@@ -4,7 +4,7 @@ user-guide-description: Learn how to use Sales Qualifier to automate prospect qu
 ---
 # Sales Qualifier guide {#using}
 
-+ [Overview](overview.md)
++ [Overview](home.md)
 + [Get started](getting-started.md)
 + [Prospects](prospects.md)
 + [Accounts](accounts.md)

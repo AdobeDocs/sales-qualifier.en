@@ -1,6 +1,6 @@
 ---
-title: Use AI Assistant
-description: Learn how to use AI Assistant in Sales Qualifier to research accounts, draft outreach, and get answers based on your CRM, engagement, and Knowledge Center data.
+title: Use AI Chat
+description: Learn how to use AI Chat in Sales Qualifier to research accounts, draft outreach, and get answers based on your CRM, engagement, and Knowledge Center data.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
@@ -18,21 +18,21 @@ topic_v2:
     internal-label: Artificial intelligence
 ---
 
-# AI Assistant
+# AI Chat
 
-AI Assistant answers natural-language questions based on your sales context. Use it to research an account, prepare for a call, draft outreach, and prioritize your work without leaving Sales Qualifier.
+AI Chat answers natural-language questions based on your sales context. Use it to research an account, prepare for a call, draft outreach, and prioritize your work without leaving Sales Qualifier.
 
-## Open AI Assistant
+## Open AI Chat
 
-Select the floating **[!UICONTROL AI Assistant]** button to open the chat panel. The panel opens next to the current page so that you can keep a prospect, account, or Engagement Plan in view. Drag the edge of the panel to resize it. To close the panel, select **[!UICONTROL AI Assistant]** again.
+Select the floating **[!UICONTROL AI Chat]** button to open the chat panel. The panel opens next to the current page so that you can keep a prospect, account, or Engagement Plan in view. Drag the edge of the panel to resize it. To close the panel, select **[!UICONTROL AI Chat]** again.
 
 >[!NOTE]
 >
->AI Assistant availability depends on your organization's configuration and your permissions. If the **[!UICONTROL AI Assistant]** button does not appear, the feature is not enabled for your account.
+>AI Chat availability depends on your organization's configuration and your permissions. If the **[!UICONTROL AI Chat]** button does not appear, the feature is not enabled for your account.
 
 ## Data sources
 
-AI Assistant can use these sources:
+AI Chat can use these sources:
 
 * Your organization's playbook in the [Knowledge Center](knowledge-center.md).
 * Your connected CRM, including leads, contacts, accounts, opportunities, and activities.
@@ -40,15 +40,15 @@ AI Assistant can use these sources:
 * Account research and recent news gathered by the Account Qualification Agent.
 * Public web research.
 
-## Use AI Assistant
+## Use AI Chat
 
-Use AI Assistant for these tasks:
+Use AI Chat for these tasks:
 
-* **Research and summarize**—Ask for a summary of an account, a buying group, or a prospect's recent engagement.
-* **Build positioning**—Ask the assistant to position your solution for a specific account before a meeting.
-* **Draft and refine outreach**—Ask it to write or rewrite an email. Specify the tone, length, language, and whether to include emojis.
-* **Get recommendations**—Ask which prospects or accounts to prioritize, or request a goal or cadence for a new Engagement Plan.
-* **Find contact details**—Ask the assistant to enrich a prospect with more contact and background information.
+* **Research and summarize**: Ask for a summary of an account, a buying group, or a prospect's recent engagement.
+* **Build positioning**: Ask the assistant to position your solution for a specific account before a meeting.
+* **Draft and refine outreach**: Ask it to write or rewrite an email. Specify the tone, length, language, and whether to include emojis.
+* **Get recommendations**: Ask which prospects or accounts to prioritize, or request a goal or cadence for a new Engagement Plan.
+* **Find contact details**: Ask the assistant to enrich a prospect with more contact and background information.
 
 ## Ground answers in your playbook
 
@@ -70,7 +70,7 @@ AI-generated responses can be inaccurate. Review all content before you use it.
 * Read drafted emails carefully and personalize them before sending.
 * Use the assistant's output as a starting point, not a finished deliverable.
 
-Your organization's use of AI Assistant is governed by the Adobe Generative AI terms.
+Your organization's use of AI Chat is governed by the Adobe Generative AI terms.
 
 >[!MORELIKETHIS]
 >

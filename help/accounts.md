@@ -85,10 +85,10 @@ Account intelligence is most valuable when it shapes what you send:
 * Reference a recent news item or research signal to make your opening relevant instead of using a generic pitch.
 * Check open opportunities and pipeline value to decide whether to prioritize the account.
 * Use **[!UICONTROL Top Members]** to identify who to contact, then enroll them in an Engagement Plan.
-* Ask [AI Assistant](ai-assistant.md) to develop positioning for the account before a call.
+* Ask [AI Chat](ai-assistant.md) to develop positioning for the account before a call.
 
 >[!MORELIKETHIS]
 >
 >* [Prospects](prospects.md)
 >* [Engagement Plans](outbound-workflows.md)
->* [AI Assistant](ai-assistant.md)
+>* [AI Chat](ai-assistant.md)

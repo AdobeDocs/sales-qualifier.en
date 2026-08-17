@@ -46,7 +46,7 @@ Organizations can also create an optional `Sales Qualifier BDR managers` group. 
 | --- | --- | --- |
 | CRM connection and field mapping | [Integrations](integrations.md#map-crm-fields-inbound-mapping) | Determines which CRM fields appear for a prospect or account and which fields are available as filters. |
 | Global email opt-out | [Integrations](integrations.md#configure-global-email-opt-out) | Adds an unsubscribe footer to every outbound email. |
-| Knowledge Center and playbook | [Knowledge Center](knowledge-center.md) | Makes the company playbook available in outbound prompts and [AI Assistant](ai-assistant.md). |
+| Knowledge Center and playbook | [Knowledge Center](knowledge-center.md) | Makes the company playbook available in outbound prompts and [AI Chat](ai-assistant.md). |
 | Activity sync | [Integrations](integrations.md#configure-activity-sync-outbound-mapping) | Determines whether Sales Qualifier outreach activities appear in the CRM. |
 
 Standard users can use these settings but cannot change them. If an expected filter, playbook reference, or CRM field is missing, contact an administrator.

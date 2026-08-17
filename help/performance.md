@@ -18,6 +18,8 @@ topic_v2:
 
 In the left navigation, select **[!UICONTROL Outbound performance]** to track outbound activity and results across your team. The dashboard has two views: **[!UICONTROL Organization Performance]** and **[!UICONTROL Campaign Performance]**.
 
+[Outbound Performance](assets/outbound-performance.png){width="800" zoomable="yes"}
+
 ## Filter and time period
 
 These controls apply across both views and all tabs:

@@ -3,7 +3,7 @@ title: Sales Qualifier Release Notes
 description: Learn what is new in Sale Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-----
+---
 
 # Sales Qualifier Release Notes
 

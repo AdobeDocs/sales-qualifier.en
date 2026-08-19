@@ -8,7 +8,7 @@ user-guide-description: Learn how to use Sales Qualifier to automate prospect qu
 + [Get started](getting-started.md)
 + [Prospects](prospects.md)
 + [Accounts](accounts.md)
-+ [Engagement Plans](outbound-workflows.md)
++ [Outbound Workflows](outbound-workflows.md)
 + [Email Outbox](email-outbox.md)
 + [Tasks](tasks.md)
 + [Outbound performance](performance.md)

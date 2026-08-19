@@ -60,6 +60,6 @@ You can configure:
 
 >[!MORELIKETHIS]
 >
->* [Engagement Plans](outbound-workflows.md)
+>* [Outbound Workflows](outbound-workflows.md)
 >* [Integrations](integrations.md)
 >* [Tasks](tasks.md)

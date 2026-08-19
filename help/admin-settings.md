@@ -20,7 +20,7 @@ internal-label: Administration
 
 Use **[!UICONTROL Admin Settings]** to configure CRM integrations, manage the Knowledge Center, and configure email opt-out.
 
-Sales Qualifier connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) and Engagement Plans a consistent view of leads, accounts, contacts, activities, and owners. Sales Qualifier can also write outreach activities and opt-out status back to the CRM and synchronize outreach activities to Marketo.
+Sales Qualifier connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) a consistent view of leads, accounts, contacts, activities, and owners. Sales Qualifier can also write outreach activities and opt-out status back to the CRM and synchronize outreach activities to Marketo.
 
 To configure CRM connections, field mapping, and activity synchronization, go to **[!UICONTROL Administration]** > **[!UICONTROL Admin Settings]** > **[!UICONTROL CRM connections]**. Standard users can use the configured CRM data and filters but cannot change these settings. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 

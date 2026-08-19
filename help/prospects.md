@@ -86,5 +86,5 @@ Select a prospect to open their profile. Review the signals that matter before y
 >[!MORELIKETHIS]
 >
 >* [Accounts](accounts.md)
->* [Engagement Plans](outbound-workflows.md)
+>* [Outbound Workflows](outbound-workflows.md)
 >* [AI Chat](ai-assistant.md)

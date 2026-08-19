@@ -94,7 +94,7 @@ Completed, skipped, and canceled tasks are final. Their actions are no longer av
 
 ## Agent suggestions
 
-The **[!UICONTROL Agent suggestions]** tab lists prospects that match an Engagement Plan's targeting criteria and are recommended for enrollment. To turn on recommendations, see [Engagement Plans](outbound-workflows.md).
+The **[!UICONTROL Agent suggestions]** tab lists prospects that match an Engagement Plan's targeting criteria and are recommended for enrollment. To turn on recommendations, see [Outbound Workflows](outbound-workflows.md).
 
 Select a suggestion to review it in the work panel:
 
@@ -110,7 +110,7 @@ The **[!UICONTROL Agent suggestions]** tab includes **[!UICONTROL Current]**, **
 
 ## Complete tasks from an Engagement Plan
 
-On an Engagement Plan's **[!UICONTROL Engaged Prospects]** view, a manual touchpoint provides the same **[!UICONTROL Mark as complete]**, **[!UICONTROL Skip]**, and notes options. Completing a task there also updates its status on the **[!UICONTROL Tasks]** page. See [Engagement Plans](outbound-workflows.md).
+On an Engagement Plan's **[!UICONTROL Engaged Prospects]** view, a manual touchpoint provides the same **[!UICONTROL Mark as complete]**, **[!UICONTROL Skip]**, and notes options. Completing a task there also updates its status on the **[!UICONTROL Tasks]** page. See [Outbound Workflows](outbound-workflows.md).
 
 ## Empty states
 
@@ -120,6 +120,6 @@ On an Engagement Plan's **[!UICONTROL Engaged Prospects]** view, a manual touchp
 
 >[!MORELIKETHIS]
 >
->* [Engagement Plans](outbound-workflows.md)
+>* [Outbound Workflows](outbound-workflows.md)
 >* [Outbound performance](performance.md)
 >* [Prospects](prospects.md)

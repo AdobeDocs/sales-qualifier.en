@@ -76,4 +76,4 @@ Your organization's use of AI Chat is governed by the Adobe Generative AI terms.
 >
 >* [Knowledge Center](knowledge-center.md)
 >* [Accounts](accounts.md)
->* [Engagement Plans](outbound-workflows.md)
+>* [Outbound Workflows](outbound-workflows.md)

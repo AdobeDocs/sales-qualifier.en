@@ -22,7 +22,7 @@ topic_v2:
 
 # Integrations
 
-Connect Outlook to send emails, recognize prospect replies, and schedule meetings. To make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and Engagement Plans, you can also connect Sales Qualifier to Salesforce or Microsoft Dynamics 365. Sales Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
+Connect Outlook to send emails, recognize prospect replies, and schedule meetings. To make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and Outbound Workflows, you can also connect Sales Qualifier to Salesforce or Microsoft Dynamics 365. Sales Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
 
 This article explains how to connect Outlook, manage a CRM connection, map fields, sync activities, and configure email opt-out. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 

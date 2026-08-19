@@ -1,6 +1,6 @@
 ---
-title: Create and manage Engagement Plans
-description: Learn how to create, share, review, and manage AI-generated Engagement Plans in Sales Qualifier to run goal-driven outreach cadences.
+title: Create and manage Outbound Workflows
+description: Learn how to create, share, review, and manage AI-generated Outbound Workflows in Sales Qualifier to run goal-driven outreach cadences.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Insights
 ---
 
-# Engagement Plans
+# Outbound Workflows
 
 An Engagement Plan is a goal-driven outreach cadence. You define the goal and targeting criteria. AI then proposes a multitouch cadence and writes personalized email content for each prospect. Before you activate the cadence, review and approve each email.
 
@@ -48,13 +48,13 @@ The AI uses the goal to suggest targeting filters, design the cadence, draft tou
 | **Reasoning** | The AI's explanation of how it wrote a given email, including the signals and data sources it used. |
 | **Enrollment** | Approving a prospect's drafts, which activates the cadence and queues emails to send during the Engagement Plan's send window. |
 
-The following sections explain how to create an Engagement Plan, review generated emails, approve prospects, and manage Engagement Plans.
+The following sections explain how to create an Engagement Plan, review generated emails, approve prospects, and manage Outbound Workflows.
 
 ## Create an Engagement Plan
 
 The Engagement Plan wizard has five steps: **[!UICONTROL Goal]**, **[!UICONTROL Targeting]**, **[!UICONTROL Generate touchpoints]**, **[!UICONTROL Settings]**, and **[!UICONTROL Add prospects]**. Your goal shapes the remaining steps.
 
-1. In the left navigation, select **[!UICONTROL Engagement Plans]**.
+1. In the left navigation, select **[!UICONTROL Outbound Workflows]**.
 1. On the **[!UICONTROL Browse]** tab, select **[!UICONTROL + Create Engagement Plan]** in the upper-right corner.
 
 ### Step 1: Define your goal
@@ -188,7 +188,7 @@ Approved emails are sent according to the Engagement Plan's selected days, send 
 
 ## Share an Engagement Plan
 
-Each Engagement Plan has a **[!UICONTROL Permissions]** setting. Engagement Plans are **[!UICONTROL Private]** by default. The owner can select **[!UICONTROL Shared with everyone]** to make an Engagement Plan available to the team.
+Each Engagement Plan has a **[!UICONTROL Permissions]** setting. Outbound Workflows are **[!UICONTROL Private]** by default. The owner can select **[!UICONTROL Shared with everyone]** to make an Engagement Plan available to the team.
 
 >[!CAUTION]
 >
@@ -196,7 +196,7 @@ Each Engagement Plan has a **[!UICONTROL Permissions]** setting. Engagement Plan
 
 On a shared Engagement Plan, teammates can enroll their own prospects. Each person can manage or pause only the prospects that they enrolled, including when using bulk actions. The Engagement Plan owner alone can edit plan-level settings, including the schedule, time zone, cadence, and other settings. These settings are read-only for teammates.
 
-Use these filters to keep shared Engagement Plans and results focused:
+Use these filters to keep shared Outbound Workflows and results focused:
 
 * On **[!UICONTROL Engaged Prospects]** and **[!UICONTROL Performance]**, use **[!UICONTROL Enrolled by]** to filter prospects by the person who enrolled them. The filter defaults to prospects that you enrolled.
 * On the **[!UICONTROL Browse]** tab, use the sharing filter to select **[!UICONTROL Shared by me]**, **[!UICONTROL Shared with me]**, **[!UICONTROL Private]**, or **[!UICONTROL All]**.
@@ -206,11 +206,11 @@ Use these filters to keep shared Engagement Plans and results focused:
 When a prospect replies with an out-of-office message, the Engagement Plan handles it automatically.
 
 * **Automatic resume**: On by default. If the out-of-office reply includes a return date, the Engagement Plan resumes the cadence on that date. If no return date is given, the Engagement Plan resumes after a resume-after buffer that your team can configure.
-* **Manual options**: You can also resume, pause, or skip the prospect manually. See [Manage existing Engagement Plans](#manage-existing-engagement-plans).
+* **Manual options**: You can also resume, pause, or skip the prospect manually. See [Manage existing Outbound Workflows](#manage-existing-engagement-plans).
 
-## Manage existing Engagement Plans
+## Manage existing Outbound Workflows
 
-On the **[!UICONTROL Engagement Plans]** page, the **[!UICONTROL Browse]** tab lists every Engagement Plan available to you. Each card shows the goal, configured touchpoints, and performance metrics. Use this view to monitor Engagement Plans, review drafts, or add prospects.
+On the **[!UICONTROL Outbound Workflows]** page, the **[!UICONTROL Browse]** tab lists every Engagement Plan available to you. Each card shows the goal, configured touchpoints, and performance metrics. Use this view to monitor Outbound Workflows, review drafts, or add prospects.
 
 ## Email outbox
 

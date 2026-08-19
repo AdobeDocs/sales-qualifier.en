@@ -90,5 +90,5 @@ Account intelligence is most valuable when it shapes what you send:
 >[!MORELIKETHIS]
 >
 >* [Prospects](prospects.md)
->* [Engagement Plans](outbound-workflows.md)
+>* [Outbound Workflows](outbound-workflows.md)
 >* [AI Chat](ai-assistant.md)

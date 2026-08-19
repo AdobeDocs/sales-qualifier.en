@@ -73,11 +73,11 @@ Prioritize outreach with account-level pipeline and engagement data.
 :::card
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Engagement Plans
+Outbound Workflows
 
 Create goal-driven cadences with AI-generated, personalized emails.
 
-[Engagement Plans](outbound-workflows.md)
+[Outbound Workflows](outbound-workflows.md)
 :::
 
 :::card

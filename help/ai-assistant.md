@@ -24,7 +24,7 @@ AI Chat answers natural-language questions based on your sales context. Use it t
 
 ## Open AI Chat
 
-Select the floating **[!UICONTROL AI Chat]** button to open the chat panel. The panel opens next to the current page so that you can keep a prospect, account, or Engagement Plan in view. Drag the edge of the panel to resize it. To close the panel, select **[!UICONTROL AI Chat]** again.
+Select the floating **[!UICONTROL AI Chat]** button to open the chat panel. The panel opens next to the current page so that you can keep a prospect, account, or Outbound Workflow in view. Drag the edge of the panel to resize it. To close the panel, select **[!UICONTROL AI Chat]** again.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Use AI Chat for these tasks:
 * **Research and summarize**: Ask for a summary of an account, a buying group, or a prospect's recent engagement.
 * **Build positioning**: Ask the assistant to position your solution for a specific account before a meeting.
 * **Draft and refine outreach**: Ask it to write or rewrite an email. Specify the tone, length, language, and whether to include emojis.
-* **Get recommendations**: Ask which prospects or accounts to prioritize, or request a goal or cadence for a new Engagement Plan.
+* **Get recommendations**: Ask which prospects or accounts to prioritize, or request a goal or cadence for a new Outbound Workflow.
 * **Find contact details**: Ask the assistant to enrich a prospect with more contact and background information.
 
 ## Ground answers in your playbook

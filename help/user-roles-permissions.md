@@ -29,7 +29,7 @@ Sales Qualifier uses two required user groups to separate sales tasks from organ
 
 | Group | Who belongs | What it grants |
 | --- | --- | --- |
-| `Sales Qualifier` | Every user, including administrators | Access to the application: Prospects, Accounts, Engagement Plans, Tasks, Performance, and Profile settings. |
+| `Sales Qualifier` | Every user, including administrators | Access to the application: Prospects, Accounts, Outbound Workflows, Tasks, Performance, and Profile settings. |
 | `Sales Qualifier Admins` | Administrators only, in addition to the `Sales Qualifier` group | Access to **[!UICONTROL Admin Settings]**, which governs CRM connections, the Knowledge Center, and compliance settings for the whole organization. |
 
 Standard users need only the `Sales Qualifier` group. Administrators need membership in both groups. See [Get started](getting-started.md) to create these groups.

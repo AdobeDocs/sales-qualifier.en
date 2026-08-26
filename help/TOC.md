@@ -5,6 +5,7 @@ user-guide-description: Learn how to use Sales Qualifier to automate prospect qu
 # Sales Qualifier guide {#using}
 
 + [Overview](home.md)
++ [Release Notes](release-notes.md)
 + [Get started](getting-started.md)
 + [Prospects](prospects.md)
 + [Accounts](accounts.md)
@@ -15,6 +16,7 @@ user-guide-description: Learn how to use Sales Qualifier to automate prospect qu
 + [Profile settings](profile-settings.md)
 + [Knowledge Center](knowledge-center.md)
 + [Integrations](integrations.md)
++ [Set up Marketing Highlights](marketing-highlights-setup.md)
 + [User roles and permissions](user-roles-permissions.md)
 + [AI Chat](ai-assistant.md)
 + [Admin settings](admin-settings.md)

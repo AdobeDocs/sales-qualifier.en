@@ -68,7 +68,7 @@ Mapped fields appear in the corresponding areas of Sales Qualifier:
 
 1. From **[!UICONTROL CRM connections]**, select **[!UICONTROL Manage]** for the connected CRM.
 1. Open **[!UICONTROL Outbound mapping]**.
-1. Turn on **[!UICONTROL Activity sync]** to sync Sales Qualifier outreach activities to the CRM and Marketo. Email sent, opened, clicked, and replied activities include the Engagement Plan name.
+1. Turn on **[!UICONTROL Activity sync]** to sync Sales Qualifier outreach activities to the CRM and Marketo. Email sent, opened, clicked, and replied activities include the Outbound Workflow name.
 
 When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not synchronize outreach activities to the CRM or Marketo.
 

@@ -1,6 +1,6 @@
 ---
 title: Prospects in Sales Qualifier
-description: Learn how to build, filter, and review your prospect list in Sales Qualifier to prioritize outreach.
+description: Learn how to build your prospect list from CRM, imported, and manually added sources, filter prospects, and review prospect details in Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
@@ -65,18 +65,18 @@ Administrators can also make mapped CRM fields available as filters. In **[!UICO
 
 In **[!UICONTROL My Opportunity Contacts]**, you can also filter contacts by fields from their associated opportunities, such as stage, type, and close date. Opportunity fields have labels such as **[!UICONTROL Stage (Opportunity)]**, which distinguishes them from contact fields. Your administrator controls which opportunity fields are available as filters.
 
-### Filter by Marketo engagement
+### Filter by Marketing Highlights
 
 Find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks, web visits, form fills, and interesting moments. Engagement appears in near real time, as it happens.
 
-To filter prospects by Marketo engagement:
+To filter prospects by Marketing Highlights:
 
 1. Select **[!UICONTROL Filter]**.
-1. Add a [!DNL Marketo] engagement filter and set the activity type, campaign, or other attributes to focus on the engagement that matters.
+1. Add a Marketing Highlights filter and set the activity type, campaign, or other attributes to focus on the engagement that matters.
 
 Each prospect shows their latest [!DNL Marketo] activity along with recent history.
 
-Marketo engagement filtering is available in all production regions. Your administrator turns it on for your org and sandbox, and a marketer completes a one-time setup in [!DNL Marketo]. See [Turn on Marketo engagement filtering](integrations.md#turn-on-marketo-engagement-filtering).
+Marketing Highlights is available in all production regions. An administrator completes a one-time setup that connects [!DNL Marketo] to Sales Qualifier. See [Set up Marketing Highlights](integrations.md#turn-on-marketo-engagement-filtering).
 
 ## Review prospect details
 

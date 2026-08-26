@@ -55,7 +55,7 @@ The **[!UICONTROL Tasks]** tab reports on manual outreach:
 
 ## Campaign performance
 
-**[!UICONTROL Campaign Performance]** reports on outbound results by Engagement Plan campaign:
+**[!UICONTROL Campaign Performance]** reports on outbound results by Outbound Workflow campaign:
 
 * **KPI tiles**: Active prospects, open rate, click rate, reply rate, and meetings booked.
 * **Campaign metrics trend chart**: Campaign KPIs over the selected time period.

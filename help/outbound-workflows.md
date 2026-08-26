@@ -23,9 +23,9 @@ topic_v2:
 
 # Outbound Workflows
 
-An Engagement Plan is a goal-driven outreach cadence. You define the goal and targeting criteria. AI then proposes a multitouch cadence and writes personalized email content for each prospect. Before you activate the cadence, review and approve each email.
+An Outbound Workflow is a goal-driven outreach cadence. You define the goal and targeting criteria. AI then proposes a multitouch cadence and writes personalized email content for each prospect. Before you activate the cadence, review and approve each email.
 
-An Engagement Plan connects four elements:
+An Outbound Workflow connects four elements:
 
 * **Goal**—The outcome you want from the outreach, such as booking a discovery call or increasing event registration.
 * **Targeting filters**—Conditions that determine which prospects are eligible.
@@ -38,24 +38,24 @@ The AI uses the goal to suggest targeting filters, design the cadence, draft tou
 
 | Concept | Description |
 | --- | --- |
-| **Engagement Plan** | A reusable outbound activity defined by a goal, targeting filters, cadence, and settings. |
+| **Outbound Workflow** | A reusable outbound activity defined by a goal, targeting filters, cadence, and settings. |
 | **Goal** | What the outreach should accomplish. |
 | **Touchpoint** | One step in the cadence (email, phone call, or LinkedIn InMail), scheduled relative to enrollment. |
 | **Touchpoint prompt** | Instructions the AI follows when generating an email subject line and body for a prospect, including tone, length, focus, and call to action. |
 | **Cadence** | The full sequence of touchpoints: how many, in what order, and on which days. |
-| **Targeting filter** | A condition that limits the Engagement Plan to a subset of prospects. |
+| **Targeting filter** | A condition that limits the Outbound Workflow to a subset of prospects. |
 | **Draft** | A generated email that is ready for review but not yet approved. |
 | **Reasoning** | The AI's explanation of how it wrote a given email, including the signals and data sources it used. |
-| **Enrollment** | Approving a prospect's drafts, which activates the cadence and queues emails to send during the Engagement Plan's send window. |
+| **Enrollment** | Approving a prospect's drafts, which activates the cadence and queues emails to send during the Outbound Workflow's send window. |
 
-The following sections explain how to create an Engagement Plan, review generated emails, approve prospects, and manage Outbound Workflows.
+The following sections explain how to create an Outbound Workflow, review generated emails, approve prospects, and manage Outbound Workflows.
 
-## Create an Engagement Plan
+## Create an Outbound Workflow
 
-The Engagement Plan wizard has five steps: **[!UICONTROL Goal]**, **[!UICONTROL Targeting]**, **[!UICONTROL Generate touchpoints]**, **[!UICONTROL Settings]**, and **[!UICONTROL Add prospects]**. Your goal shapes the remaining steps.
+The Outbound Workflow wizard has five steps: **[!UICONTROL Goal]**, **[!UICONTROL Targeting]**, **[!UICONTROL Generate touchpoints]**, **[!UICONTROL Settings]**, and **[!UICONTROL Add prospects]**. Your goal shapes the remaining steps.
 
 1. In the left navigation, select **[!UICONTROL Outbound Workflows]**.
-1. On the **[!UICONTROL Browse]** tab, select **[!UICONTROL + Create Engagement Plan]** in the upper-right corner.
+1. On the **[!UICONTROL Browse]** tab, select **[!UICONTROL + Create Outbound Workflow]** in the upper-right corner.
 
 ### Step 1: Define your goal
 
@@ -72,6 +72,8 @@ State a specific outcome in the goal. For example, enter `Book a 15-minute disco
 
 Targeting filters define which prospects are eligible. When you add prospects later, only those prospects who match these filters appear in the selection list.
 
+![Targeting filters](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+
 1. Select the down arrow to open the **[!UICONTROL Add a filter]** list, then select a filter.
 
 1. Set values for the filter.
@@ -82,6 +84,8 @@ Targeting filters define which prospects are eligible. When you add prospects la
 ### Step 3: Generate and review touchpoints
 
 After you configure targeting, AI analyzes the goal and targeting criteria, defines the cadence, and writes a prompt for each touchpoint. The cadence can include email, phone call, and LinkedIn InMail steps.
+
+![Touchpoints](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
 Expand an email touchpoint to read its prompt. The prompt guides the AI as it writes each prospect's email, including the tone, length, focus, and call to action.
 
@@ -105,21 +109,23 @@ When the cadence and prompts are ready, select **[!UICONTROL Next: Settings]**.
 
 Refine the touchpoint prompts before generating prospect emails. AI uses these prompts for every selected prospect.
 
-### Step 4: Configure Engagement Plan settings
+### Step 4: Configure Outbound Workflow settings
 
-The **[!UICONTROL Settings]** step controls how the Engagement Plan runs.
+The **[!UICONTROL Settings]** step controls how the Outbound Workflow runs.
 
-1. Review the **[!UICONTROL Engagement Plan name]** and change it if needed.
-1. In **[!UICONTROL Max prospects per Engagement Plan]**, confirm the maximum number of prospects that the Engagement Plan can manage at once.
+![Settings panel](assets/create-workflow-settings.png){width="800" zoomable="yes"}
+
+1. Review the **[!UICONTROL Outbound Workflow name]** and change it if needed.
+1. In **[!UICONTROL Max prospects per Outbound Workflow]**, confirm the maximum number of prospects that the Outbound Workflow can manage at once.
 1. Set the **[!UICONTROL Send window]** for the hours when outbound emails are allowed to send.
 1. Select the days of the week when emails can send. To avoid weekend sends, select only the weekdays instead of using a separate **[!UICONTROL Skip Weekends]** setting.
 1. Choose whether to send during each prospect's most active hours.
 1. To stop follow-up touchpoints automatically once a prospect books a meeting, turn on **[!UICONTROL Meeting Booking Pause]**.
-1. Choose whether to use each prospect's time zone or the Engagement Plan **[!UICONTROL Timezone]** for send timing. If you use the Engagement Plan time zone, confirm that it matches your audience.
-1. Under **[!UICONTROL Permissions]**, keep **[!UICONTROL Private]** (the default) or select **[!UICONTROL Shared with everyone]**. For details, see [Share an Engagement Plan](#share-an-engagement-plan).
+1. Choose whether to use each prospect's time zone or the Outbound Workflow **[!UICONTROL Timezone]** for send timing. If you use the Outbound Workflow time zone, confirm that it matches your audience.
+1. Under **[!UICONTROL Permissions]**, keep **[!UICONTROL Private]** (the default) or select **[!UICONTROL Shared with everyone]**. For details, see [Share an Outbound Workflow](#share-an-outbound-workflow).
 1. Select **[!UICONTROL Save and add prospects]**.
 
-The opt-out footer is configured globally by an administrator and applies to outbound emails independently of the Engagement Plan settings. See [Configure global email opt-out](integrations.md#configure-global-email-opt-out).
+The opt-out footer is configured globally by an administrator and applies to outbound emails independently of the Outbound Workflow settings. See [Configure global email opt-out](integrations.md#configure-global-email-opt-out).
 
 ### Step 5: Add prospects and start email generation
 
@@ -139,9 +145,9 @@ For each prospect, the AI combines the touchpoint prompt with person and account
 
 ## Review and refine generated emails
 
-When generation finishes, the Engagement Plan detail view prompts you to review the drafts. Sales Qualifier does not send email until you approve it.
+When generation finishes, the Outbound Workflow detail view prompts you to review the drafts. Sales Qualifier does not send email until you approve it.
 
-1. In the Engagement Plan detail view, select **[!UICONTROL Review drafts]** in the banner.
+1. In the Outbound Workflow detail view, select **[!UICONTROL Review drafts]** in the banner.
 1. The **[!UICONTROL Review touchpoints]** step has two tabs:
    * **[!UICONTROL Ready for Review]**—Emails that have finished generating.
    * **[!UICONTROL Generating]**—Emails that are still being written.
@@ -184,17 +190,17 @@ Approval activates the cadence for a prospect. The system does not send emails t
 1. In the left prospect list, select the prospects whose emails you have reviewed and are ready to send.
 1. Select **[!UICONTROL Approve and enroll prospects]** in the lower-right corner.
 
-Approved emails are sent according to the Engagement Plan's selected days, send window, active-hours option, and time-zone setting. A touchpoint with a zero delay sends with no wait; each other touchpoint follows its configured delay. Unapproved prospects remain in **[!UICONTROL Ready for Review]**.
+Approved emails are sent according to the Outbound Workflow's selected days, send window, active-hours option, and time-zone setting. A touchpoint with a zero delay sends with no wait; each other touchpoint follows its configured delay. Unapproved prospects remain in **[!UICONTROL Ready for Review]**.
 
-## Share an Engagement Plan
+## Share an Outbound Workflow
 
-Each Engagement Plan has a **[!UICONTROL Permissions]** setting. Outbound Workflows are **[!UICONTROL Private]** by default. The owner can select **[!UICONTROL Shared with everyone]** to make an Engagement Plan available to the team.
+Each Outbound Workflow has a **[!UICONTROL Permissions]** setting. Outbound Workflows are **[!UICONTROL Private]** by default. The owner can select **[!UICONTROL Shared with everyone]** to make an Outbound Workflow available to the team.
 
 >[!CAUTION]
 >
->Sharing is permanent. After an Engagement Plan is set to **[!UICONTROL Shared with everyone]**, it cannot be changed back to **[!UICONTROL Private]**.
+>Sharing is permanent. After an Outbound Workflow is set to **[!UICONTROL Shared with everyone]**, it cannot be changed back to **[!UICONTROL Private]**.
 
-On a shared Engagement Plan, teammates can enroll their own prospects. Each person can manage or pause only the prospects that they enrolled, including when using bulk actions. The Engagement Plan owner alone can edit plan-level settings, including the schedule, time zone, cadence, and other settings. These settings are read-only for teammates.
+On a shared Outbound Workflow, teammates can enroll their own prospects. Each person can manage or pause only the prospects that they enrolled, including when using bulk actions. The Outbound Workflow owner alone can edit plan-level settings, including the schedule, time zone, cadence, and other settings. These settings are read-only for teammates.
 
 Use these filters to keep shared Outbound Workflows and results focused:
 
@@ -203,14 +209,14 @@ Use these filters to keep shared Outbound Workflows and results focused:
 
 ## Out-of-office reply handling
 
-When a prospect replies with an out-of-office message, the Engagement Plan handles it automatically.
+When a prospect replies with an out-of-office message, the Outbound Workflow handles it automatically.
 
-* **Automatic resume**: On by default. If the out-of-office reply includes a return date, the Engagement Plan resumes the cadence on that date. If no return date is given, the Engagement Plan resumes after a resume-after buffer that your team can configure.
-* **Manual options**: You can also resume, pause, or skip the prospect manually. See [Manage existing Outbound Workflows](#manage-existing-engagement-plans).
+* **Automatic resume**: On by default. If the out-of-office reply includes a return date, the Outbound Workflow resumes the cadence on that date. If no return date is given, the Outbound Workflow resumes after a resume-after buffer that your team can configure.
+* **Manual options**: A rep can still select **[!UICONTROL Resume now]** or schedule a specific resume date. See [Manage existing Outbound Workflows](#manage-existing-outbound-workflows).
 
 ## Manage existing Outbound Workflows
 
-On the **[!UICONTROL Outbound Workflows]** page, the **[!UICONTROL Browse]** tab lists every Engagement Plan available to you. Each card shows the goal, configured touchpoints, and performance metrics. Use this view to monitor Outbound Workflows, review drafts, or add prospects.
+On the **[!UICONTROL Outbound Workflows]** page, the **[!UICONTROL Browse]** tab lists every Outbound Workflow available to you. Each card shows the goal, configured touchpoints, and performance metrics. Use this view to monitor Outbound Workflows, review drafts, or add prospects.
 
 ## Email outbox
 
@@ -222,13 +228,13 @@ When you connect your calendar, Sales Qualifier generates a personal booking lin
 
 * **Booking links**—Configure your calendar connection and availability in [Profile settings](profile-settings.md). Add the booking link to your email signature so that it appears in outbound emails.
 * **Cadence placement**—Sales Qualifier inserts your booking link at relevant points in a cadence. You can change its placement.
-* **Booking pause**—When a prospect books a meeting, **[!UICONTROL Meeting Booking Pause]** stops further follow-ups. See [Step 4: Configure Engagement Plan settings](#step-4-configure-engagement-plan-settings).
+* **Booking pause**—When a prospect books a meeting, **[!UICONTROL Meeting Booking Pause]** stops further follow-ups. See [Step 4: Configure Outbound Workflow settings](#step-4-configure-outbound-workflow-settings).
 
 Track booking outcomes on the [Outbound performance](performance.md) page.
 
-## Engagement Plan best practices
+## Outbound Workflow best practices
 
-* **Define a specific goal.** Targeting, cadence, and emails all derive from the goal. State the outcome that you want the Engagement Plan to achieve.
+* **Define a specific goal.** Targeting, cadence, and emails all derive from the goal. State the outcome that you want the Outbound Workflow to achieve.
 * **Finalize touchpoint prompts before per-prospect generation.** After bulk generation, changes are typically made one prospect at a time.
 * **Use Reasoning as a quality check.** If the wrong signal is emphasized or a relevant signal is missing, edit the email or revise the touchpoint prompt and regenerate the cadence.
 * **Match the editing tool to the change.** Use direct edits for wording and tone. Use **[!UICONTROL Generate with AI]** for restructuring or reframing.

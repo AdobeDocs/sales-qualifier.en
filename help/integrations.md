@@ -96,6 +96,8 @@ An unconfigured card shows **[!UICONTROL Connect]**. A configured card shows **[
 
    Enter the **[!UICONTROL Client ID (Consumer Key)]**, **[!UICONTROL Instance URL]**, and **[!UICONTROL Client Secret]**. Use the canonical instance URL form `https://{{mydomain}}.my.salesforce.com`.
 
+   ![Salesforce connection](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
    >[!TAB Microsoft Dynamics]
 
    Enter the **[!UICONTROL Client ID (Consumer Key)]**, **[!UICONTROL Tenant ID]**, **[!UICONTROL Microsoft Dynamics Instance URL]**, and **[!UICONTROL Client Secret]**. Use the canonical instance URL form `https://{{mydomain}}.crm.dynamics.com`.
@@ -117,7 +119,7 @@ If Sales Qualifier rejects the credentials, it identifies the cause, such as inv
 
 >[!WARNING]
 >
->When you disconnect a CRM, Engagement Plans pause for all prospects in your organization, and no new prospects sync from your CRM until you reconnect.
+>When you disconnect a CRM, Outbound Workflows pause for all prospects in your organization, and no new prospects sync from your CRM until you reconnect.
 
 ## Map CRM fields (inbound mapping) {#map-crm-fields-inbound-mapping}
 
@@ -148,7 +150,7 @@ To change a section later, select **[!UICONTROL Edit]** on the section card. To 
 
 ## Configure activity sync (outbound mapping) {#configure-activity-sync-outbound-mapping}
 
-Activity sync writes Sales Qualifier outreach activities to your CRM and Marketo. Email sent, opened, clicked, and replied activities include the Engagement Plan name. Representatives can see the activities in the CRM, while marketing teams can use the Marketo activities in lead scoring and engagement timelines.
+Activity sync writes Sales Qualifier outreach activities to your CRM and Marketo. Email sent, opened, clicked, and replied activities include the Outbound Workflow name. Representatives can see the activities in the CRM, while marketing teams can use the Marketo activities in lead scoring and engagement timelines.
 
 1. On the connected CRM card, select **[!UICONTROL Manage]**.
 1. Open the **[!UICONTROL Outbound mapping]** tab.
@@ -160,20 +162,13 @@ When activity sync is off, Sales Qualifier continues to use inbound CRM data but
 >
 >Activity sync requires write access in your CRM. If the required permission is missing, the switch is disabled and Sales Qualifier prompts you to contact your administrator. To grant activity write access, work with your CRM administrator.
 
-## Turn on Marketo engagement filtering {#turn-on-marketo-engagement-filtering}
+## Set up Marketing Highlights {#turn-on-marketo-engagement-filtering}
 
-Marketo engagement filtering lets representatives find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks. See [Filter by Marketo engagement](prospects.md#filter-by-marketo-engagement).
+Marketing Highlights lets representatives find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks. See [Filter by Marketo engagement](prospects.md#filter-by-marketo-engagement).
 
-An administrator turns on Marketo engagement filtering for the relevant org and sandbox. After it is on, a marketer completes a one-time setup in [!DNL Marketo].
+An administrator completes a one-time setup that connects [!DNL Marketo] to Sales Qualifier for the relevant org and sandbox. The setup covers creating API credentials in the Adobe Developer Console, configuring a webhook in [!DNL Marketo], and adding that webhook to a trigger Smart Campaign. See [Set up Marketing Highlights](marketing-highlights-setup.md) for complete steps.
 
-To flow a Smart Campaign's activity into Sales Qualifier:
-
-1. In [!DNL Marketo], open the Smart Campaign whose activity you want to flow into Sales Qualifier.
-1. Add a Call Webhook step to the Smart Campaign flow.
-
-After the webhook step is in place, activity from that Smart Campaign flows into Sales Qualifier, and representatives can filter their prospects by it.
-
-Marketo engagement filtering is available in all production regions: North America, EMEA, and Australia.
+Marketing Highlights is available in all production regions: North America, EMEA, and Australia.
 
 ## Configure global email opt-out {#configure-global-email-opt-out}
 

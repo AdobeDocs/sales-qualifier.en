@@ -25,6 +25,7 @@ Select **[!UICONTROL Prospects]** in the left navigation to view the leads and c
 
 * **[!UICONTROL Leads]**—Leads assigned to you in the connected CRM.
 * **[!UICONTROL Contacts]**—Contacts assigned to you in the connected CRM.
+* **[!UICONTROL Marketing Highlights]**—Prospects with live Marketo activity, such as email opens or clicks.
 * **[!UICONTROL People list]**—Prospects that you import or add manually.
 
 ## Build your prospect list
@@ -38,6 +39,9 @@ The prospect list combines people from more than one source:
 To add prospects that do not come from your CRM:
 
 1. On the **[!UICONTROL Prospects]** page, select **[!UICONTROL People list]**.
+
+   ![People list](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. Select **[!UICONTROL + Add people]**, then select **[!UICONTROL Import CSV]** or **[!UICONTROL Add person]**.
 
    * For a CSV import, upload a CSV in the `firstname,email` format.
@@ -50,7 +54,7 @@ To add prospects that do not come from your CRM:
 
 Select **[!UICONTROL Filter]** to narrow the list. You can filter by:
 
-* Engagement Plan status
+* Outbound Workflow status
 * Created by
 * Job title
 * Account

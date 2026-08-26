@@ -65,7 +65,7 @@ Use the buttons below the overview to switch between account views. The availabl
 
 From the **[!UICONTROL Top Members]** view, take either of these actions for a contact:
 
-* **[!UICONTROL Add to Engagement Plan]**—Enroll the contact in an [Engagement Plan](outbound-workflows.md).
+* **[!UICONTROL Add to Outbound Workflow]**—Enroll the contact in an [Outbound Workflow](outbound-workflows.md).
 * **[!UICONTROL Add to Marketo campaign]**—Trigger a [!DNL Marketo] campaign for the contact.
 
 ## Research the account
@@ -84,7 +84,7 @@ Account intelligence is most valuable when it shapes what you send:
 
 * Reference a recent news item or research signal to make your opening relevant instead of using a generic pitch.
 * Check open opportunities and pipeline value to decide whether to prioritize the account.
-* Use **[!UICONTROL Top Members]** to identify who to contact, then enroll them in an Engagement Plan.
+* Use **[!UICONTROL Top Members]** to identify who to contact, then enroll them in an Outbound Workflow.
 * Ask [AI Chat](ai-assistant.md) to develop positioning for the account before a call.
 
 >[!MORELIKETHIS]

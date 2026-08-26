@@ -164,7 +164,7 @@ When activity sync is off, Sales Qualifier continues to use inbound CRM data but
 
 ## Set up Marketing Highlights {#turn-on-marketo-engagement-filtering}
 
-Marketing Highlights lets representatives find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks. See [Filter by Marketo engagement](prospects.md#filter-by-marketo-engagement).
+Marketing Highlights lets representatives find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks. See [Filter by Marketing Highlights](prospects.md#filter-by-marketing-highlights).
 
 An administrator completes a one-time setup that connects [!DNL Marketo] to Sales Qualifier for the relevant org and sandbox. The setup covers creating API credentials in the Adobe Developer Console, configuring a webhook in [!DNL Marketo], and adding that webhook to a trigger Smart Campaign. See [Set up Marketing Highlights](marketing-highlights-setup.md) for complete steps.
 

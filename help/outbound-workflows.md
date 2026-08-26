@@ -89,6 +89,8 @@ After you configure targeting, AI analyzes the goal and targeting criteria, defi
 
 Expand an email touchpoint to read its prompt. The prompt guides the AI as it writes each prospect's email, including the tone, length, focus, and call to action.
 
+Typing a forward slash `/` brings up the list of defined tokens you can use to personalize the email.
+
 #### Regenerate the cadence
 
 If the cadence is not what you want, select **[!UICONTROL Regenerate]** and enter a refinement instruction. For example:

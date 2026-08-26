@@ -4,10 +4,9 @@ description: Learn what is new in Sale Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 ---
-
 # Sales Qualifier Release Notes
 
-**08-17-2026**
+## 08-17-2026
 
 [!DNL Sales Qualifier] is now available as a stand-alone application. It was initially released as part of Adobe Journey Optimizer B2B.
 

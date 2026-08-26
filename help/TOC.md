@@ -20,3 +20,4 @@ user-guide-description: Learn how to use Sales Qualifier to automate prospect qu
 + [User roles and permissions](user-roles-permissions.md)
 + [AI Chat](ai-assistant.md)
 + [Admin settings](admin-settings.md)
++ [Release Notes](release-notes.md)

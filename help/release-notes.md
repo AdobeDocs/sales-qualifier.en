@@ -8,7 +8,7 @@ role: User
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier] is now available as a stand-alone application. It was initially released as part of Adobe Journey Optimizer B2B.
+[!DNL Sales Qualifier] is now available as a stand-alone application. It supports Marketo and Adobe Journey Optimizer B2B.
 
 This release includes:
 
@@ -16,7 +16,7 @@ This release includes:
 * Goal-driven Outbound Workflows with AI-proposed cadences and drafted emails. [Learn more](outbound-workflows.md).
 * A unified task queue for phone calls, LinkedIn InMails, and email reviews. [Learn more](tasks.md).
 * Automatic meeting booking through calendar integration. [Learn more](outbound-workflows.md#meeting-booking).
-* A Knowledge Center for grounding AI outreach in your own playbook materials. [Learn more](knowledge-center.md).
+* A Knowledge Center for grounding AI outreach in your own playbook materials. [Learn more](admin-settings.md#knowledge-center).
 * AI Chat for natural-language questions based on your CRM, engagement, and Knowledge Center data. [Learn more](ai-assistant.md).
 * Email and meeting-booking performance reports. [Learn more](performance.md).
 * Browser and email plugins for access within your CRM or Outlook. [Learn more](admin-settings.md#crm-mcp-and-the-embedded-plugin).

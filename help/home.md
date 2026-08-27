@@ -107,7 +107,7 @@ Knowledge Center
 
 Build a playbook that grounds AI outreach and assistance in your materials.
 
-[Knowledge Center](knowledge-center.md)
+[Knowledge Center](admin-settings.md#knowledge-center)
 :::
 
 :::card
@@ -128,16 +128,6 @@ Profile settings
 Configure your email, signature, and calendar availability.
 
 [Profile settings](profile-settings.md)
-:::
-
-:::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
-
-User roles and permissions
-
-Understand the user and administrator group model.
-
-[User roles and permissions](user-roles-permissions.md)
 :::
 
 :::card

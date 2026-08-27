@@ -26,7 +26,7 @@ To configure CRM connections, field mapping, and activity synchronization, go to
 
 >[!IMPORTANT]
 >
->Accessing **[!UICONTROL Admin Settings]** requires membership in both the `Sales Qualifier` and `Sales Qualifier Admins` user groups. See [User roles and permissions](user-roles-permissions.md).
+>Accessing **[!UICONTROL Admin Settings]** requires membership in both the `Sales Qualifier` and `Sales Qualifier Admins` user groups.
 
 ## CRM MCP and the embedded plugin
 
@@ -136,5 +136,4 @@ ORDER BY LastModifiedDate DESC
 >[!MORELIKETHIS]
 >
 >* [Get started](getting-started.md)
->* [User roles and permissions](user-roles-permissions.md)
 >* [Prospects](prospects.md)

@@ -131,16 +131,6 @@ Configure your email, signature, and calendar availability.
 :::
 
 :::card
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
-
-User roles and permissions
-
-Understand the user and administrator group model.
-
-[User roles and permissions](user-roles-permissions.md)
-:::
-
-:::card
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI Chat

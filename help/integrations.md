@@ -28,7 +28,7 @@ This article explains how to connect Outlook, manage a CRM connection, map field
 
 >[!IMPORTANT]
 >
->The Outlook connection is per representative. The CRM and compliance settings described later in this article apply to the entire organization. To access those organization-wide settings, you must belong to the `Sales Qualifier` and `Sales Qualifier Admins` user groups. Standard users can use the configured CRM data and filters but cannot change the settings. See [User roles and permissions](user-roles-permissions.md).
+>The Outlook connection is per representative. The CRM and compliance settings described later in this article apply to the entire organization. To access those organization-wide settings, you must belong to the `Sales Qualifier` and `Sales Qualifier Admins` user groups. Standard users can use the configured CRM data and filters but cannot change the settings.
 
 ## Connect Outlook
 
@@ -96,7 +96,7 @@ An unconfigured card shows **[!UICONTROL Connect]**. A configured card shows **[
 
    Enter the **[!UICONTROL Client ID (Consumer Key)]**, **[!UICONTROL Instance URL]**, and **[!UICONTROL Client Secret]**. Use the canonical instance URL form `https://{{mydomain}}.my.salesforce.com`.
 
-   ![Salesforce credentials](assets/crm-salesforce.png){width="800" zoomable="yes"}
+   ![Salesforce credentials](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -202,5 +202,4 @@ Your CRM administrator prepares API access in Salesforce or Dynamics. A Sales Qu
 >[!MORELIKETHIS]
 >
 >* [Get started](getting-started.md)
->* [User roles and permissions](user-roles-permissions.md)
 >* [Accounts](accounts.md)

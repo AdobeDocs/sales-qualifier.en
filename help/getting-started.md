@@ -65,7 +65,7 @@ Administrators who configure CRM connections, the [Knowledge Center](admin-setti
 1. Open **[!UICONTROL Users]**, select **[!UICONTROL Add users]**, and add the administrators.
 1. Confirm that each administrator is also a member of the `Sales Qualifier` group.
 
-Membership in both groups makes **[!UICONTROL Admin Settings]** visible under **[!UICONTROL Administration]** in the left navigation. Standard users work with the fields, filters, and playbook that administrators configure. The configured opt-out footer applies to their outbound emails automatically. Standard users cannot change these settings. See [User roles and permissions](user-roles-permissions.md) for details.
+Membership in both groups makes **[!UICONTROL Admin Settings]** visible under **[!UICONTROL Administration]** in the left navigation. Standard users work with the fields, filters, and playbook that administrators configure. The configured opt-out footer applies to their outbound emails automatically. Standard users cannot change these settings.
 
 User group names must match exactly as shown in the preceding steps.
 
@@ -157,7 +157,7 @@ A Microsoft Dynamics 365 or Azure administrator registers an application and add
 
    The page displays cards for Salesforce and Microsoft Dynamics. An inactive connection shows **[!UICONTROL Connect]**. A configured connection shows **[!UICONTROL Connected]** and **[!UICONTROL Manage]**.
 
-   ![Salesforce credentials](assets/crm-salesforce.png){width="800" zoomable="yes"}
+   ![Salesforce credentials](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. Select **[!UICONTROL Connect]** for the CRM that you use.
 1. Enter the credentials and instance URL from your CRM administrator.
@@ -175,4 +175,3 @@ See [Map CRM fields (inbound mapping)](integrations.md#map-crm-fields-inbound-ma
 >
 >* [Prospects](prospects.md)
 >* [Outbound Workflows](outbound-workflows.md)
->* [User roles and permissions](user-roles-permissions.md)

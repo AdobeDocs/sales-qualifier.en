@@ -18,14 +18,19 @@ topic_v2:
 
 In the left navigation, expand **[!UICONTROL Configuration]** and select **[!UICONTROL Profile settings]**. Use these settings to manage your personal details, email connection, calendar, and chat availability.
 
+![Profile settings](assets/profile-email-config.png)
+
 ## Email settings
 
 In the **[!UICONTROL Email settings]** tab, set up your email connections.
 
-* **[!UICONTROL Email connections]**—Select **[!UICONTROL Connect Outlook]** and follow the Microsoft sign-in process. See [Connect Outlook](integrations.md#connect-outlook) for the access you approve and the administrator approval path, if required.
-* **[!UICONTROL Email signature]**—Add or update the signature used in generated emails. Include your [meeting booking](outbound-workflows.md#meeting-booking) link so that prospects can schedule time with you.
+* **[!UICONTROL Email connections]** — Select Microsoft Outlook or Google and follow the sign-in process. See [Connect Outlook](integrations.md#connect-outlook) for the access you approve and the administrator approval path, if required.
+* **[!UICONTROL Email signature]** — Add or update the signature used in generated emails. Include your [meeting booking](outbound-workflows.md#meeting-booking) link so that prospects can schedule time with you.
+* **[!UICONTROL Meeting booking link]** - Send a meeting invite within your emails. Takes the meeting URL.
 
 ### Email drafting context
+
+![Email context](assets/profile-email-instructions.png)
 
 Use **[!UICONTROL Email drafting context]** to set the email tone, structure, and style, so that emails are consistent.
 

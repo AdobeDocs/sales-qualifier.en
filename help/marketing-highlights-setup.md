@@ -22,7 +22,7 @@ topic_v2:
 
 # Set up Marketing Highlights
 
-Marketing Highlights shows each prospect's live [!DNL Marketo] activity, such as email opens and clicks, web visits, and form fills, on the **[!UICONTROL Marketing Highlights]** tab of a prospect in Sales Qualifier. This article explains how to connect your [!DNL Marketo] instance so that activity flows in.
+Marketing Highlights shows each prospect's live [!DNL Marketo] activity, such as email opens and clicks, web visits, and form fills. This article explains how to connect your [!DNL Marketo] instance so that activity flows in.
 
 >[!IMPORTANT]
 >

@@ -14,7 +14,7 @@ Outbound Workflows    internal-label: Insights
 
 In the left navigation, select **[!UICONTROL Outbound performance]** to track outbound activity and results across your team. The dashboard has two views: **[!UICONTROL Organization Performance]** and **[!UICONTROL Campaign Performance]**.
 
-[Outbound Performance](assets/outbound-performance.png){width="800" zoomable="yes"}
+![Outbound Performance](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## Filter and time period
 
@@ -29,7 +29,7 @@ These controls apply across both views and all tabs:
 
 ### Overview tab
 
-The **[!UICONTROL Overview]** tab summarizes outbound results at a glance:
+The **[!UICONTROL Overview]** tab summarizes outbound results at a glance. Click on any of the boxes to display the chart with that information.
 
 * **Tiles**: Pipeline, email engagement, and manual activity, each with a trend change against the previous period.
 * **Performance trend chart**: Outbound performance over the selected time period.

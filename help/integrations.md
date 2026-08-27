@@ -67,7 +67,7 @@ In the left navigation, expand **[!UICONTROL Administration]** and select **[!UI
 | **[!UICONTROL Integrations]** | **[!UICONTROL CRM connections]**, **[!UICONTROL Knowledge Center]** |
 | **[!UICONTROL Compliance]** | **[!UICONTROL Email settings]** |
 
-For the Knowledge Center, see [Knowledge Center](knowledge-center.md).
+For the Knowledge Center, see [Build a Knowledge Center playbook](admin-settings.md#knowledge-center).
 
 ## Manage CRM connections
 
@@ -96,7 +96,7 @@ An unconfigured card shows **[!UICONTROL Connect]**. A configured card shows **[
 
    Enter the **[!UICONTROL Client ID (Consumer Key)]**, **[!UICONTROL Instance URL]**, and **[!UICONTROL Client Secret]**. Use the canonical instance URL form `https://{{mydomain}}.my.salesforce.com`.
 
-   ![Salesforce connection](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Salesforce credentials](assets/crm-salesforce.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -125,8 +125,13 @@ If Sales Qualifier rejects the credentials, it identifies the cause, such as inv
 
 Inbound mapping controls which CRM fields Sales Qualifier imports and where they appear. Fields are grouped into sections, and each section belongs to an entity type.
 
+![Inbound mapping](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. On the connected CRM card, select **[!UICONTROL Manage]**.
 1. On the **[!UICONTROL Inbound mapping]** tab, select **[!UICONTROL Add section]**.
+
+   ![Add section](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. On the **Select section** step, choose the entity type, then select **[!UICONTROL Next]**:
 
    | Entity | Where its fields appear |

@@ -27,6 +27,8 @@ Open an account from the profile of a prospect associated with it.
 1. Select **[!UICONTROL Prospects]** in the left navigation and open a prospect. See [Prospects](prospects.md).
 1. On the prospect detail page, select the **[!UICONTROL Account]** tab.
 
+![Prospect detail page with Person and Account tabs](./assets/account-home.png){width="800" zoomable="yes"}
+
 Sales Qualifier identifies the account from the prospect's CRM record. The same account view is available from every prospect associated with that account. If Sales Qualifier cannot match an account, the tab shows _No account found_.
 
 >[!NOTE]
@@ -75,6 +77,8 @@ The **[!UICONTROL Account Research]** tab contains three areas:
 * **[!UICONTROL Research categories]**—Research topics. Select a category to view its research in the center pane.
 * **Research content**—AI-generated research cards grouped by category. A card can include the source domain and the dates when the signal was first and last detected.
 * **[!UICONTROL Recent news]**—Current news about the account, including dates, tags, and source links.
+
+![Account Research tab](./assets/account-detail.png){width="800" zoomable="yes"}
 
 If research or news cannot load, each area offers a **[!UICONTROL Reload]** action to try again.
 

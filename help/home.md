@@ -107,7 +107,7 @@ Knowledge Center
 
 Build a playbook that grounds AI outreach and assistance in your materials.
 
-[Knowledge Center](knowledge-center.md)
+[Knowledge Center](admin-settings.md#knowledge-center)
 :::
 
 :::card

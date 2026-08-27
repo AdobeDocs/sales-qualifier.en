@@ -22,6 +22,8 @@ topic_v2:
 
 AI Chat answers natural-language questions based on your sales context. Use it to research an account, prepare for a call, draft outreach, and prioritize your work without leaving Sales Qualifier.
 
+![AI Chat button](assets/ai-chat.png){width="800" zoomable="yes"}
+
 ## Open AI Chat
 
 Select the floating **[!UICONTROL AI Chat]** button to open the chat panel. The panel opens next to the current page so that you can keep a prospect, account, or Outbound Workflow in view. Drag the edge of the panel to resize it. To close the panel, select **[!UICONTROL AI Chat]** again.
@@ -34,7 +36,7 @@ Select the floating **[!UICONTROL AI Chat]** button to open the chat panel. The 
 
 AI Chat can use these sources:
 
-* Your organization's playbook in the [Knowledge Center](knowledge-center.md).
+* Your organization's playbook in the [Knowledge Center](admin-settings.md#knowledge-center).
 * Your connected CRM, including leads, contacts, accounts, opportunities, and activities.
 * [!DNL Marketo] activity and engagement data.
 * Account research and recent news gathered by the Account Qualification Agent.
@@ -52,7 +54,7 @@ Use AI Chat for these tasks:
 
 ## Ground answers in your playbook
 
-To use your [Knowledge Center](knowledge-center.md) playbook, refer to the Knowledge Center in your question. For example:
+To use your [Knowledge Center](admin-settings.md#knowledge-center) playbook, refer to the Knowledge Center in your question. For example:
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -74,6 +76,6 @@ Your organization's use of AI Chat is governed by the Adobe Generative AI terms.
 
 >[!MORELIKETHIS]
 >
->* [Knowledge Center](knowledge-center.md)
+>* [Knowledge Center](admin-settings.md#knowledge-center)
 >* [Accounts](accounts.md)
 >* [Outbound Workflows](outbound-workflows.md)

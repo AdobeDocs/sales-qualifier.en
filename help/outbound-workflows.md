@@ -105,7 +105,7 @@ Set a touchpoint delay in days, hours, and minutes. Set the days, hours, and min
 
 #### Use the Knowledge Center in prompts
 
-If your organization has built a [Knowledge Center](knowledge-center.md) playbook, refer to it in the prompt. Name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
+If your organization has built a [Knowledge Center](admin-settings.md#knowledge-center) playbook, refer to it in the prompt. Name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
 
 When the cadence and prompts are ready, select **[!UICONTROL Next: Settings]**.
 
@@ -245,5 +245,5 @@ Track booking outcomes on the [Outbound performance](performance.md) page.
 >[!MORELIKETHIS]
 >
 >* [Tasks](tasks.md)
->* [Knowledge Center](knowledge-center.md)
+>* [Knowledge Center](admin-settings.md#knowledge-center)
 >* [Outbound performance](performance.md)

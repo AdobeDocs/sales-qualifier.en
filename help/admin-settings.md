@@ -72,6 +72,31 @@ Mapped fields appear in the corresponding areas of Sales Qualifier:
 
 When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not synchronize outreach activities to the CRM or Marketo.
 
+## Build a Knowledge Center playbook {#knowledge-center}
+
+The **[!UICONTROL Knowledge Center]** gives the Account Qualification Agent (AQA) access to your sales materials. Sales Qualifier uses these materials to generate research, qualification insights, and outreach that reflect how your organization sells. Only administrators can build and manage the playbook.
+
+![Knowledge Center](assets/knowledge-center.png){width="800" zoomable="yes"}
+
+1. In the left navigation, expand **[!UICONTROL Administration]**, select **[!UICONTROL Admin Settings]** and select **[!UICONTROL Knowledge Center]**
+1.  u
+1. Set the **[!UICONTROL Company name]** and **[!UICONTROL Company URL]** that Sales Qualifier uses to research your company and draft emails.
+1. Upload sales plays, ideal customer profiles (ICPs), positioning guides, and other sales collateral in PDF, PPTX, or DOCX format.
+1. Select **[!UICONTROL Build Playbook]**.
+
+Each uploaded document displays its processing status, such as **[!UICONTROL Ready]**, and when it was last updated.
+
+>[!NOTE]
+>
+>A playbook can take up to 24 hours to process.
+
+When the playbook is ready, representatives can use it in two places:
+
+* **Outbound email prompts**—In a touchpoint prompt, name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. See [Generate and review touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **AI Chat**: Refer to the Knowledge Center in your question. For example, enter `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. See [AI Chat](ai-assistant.md).
+
+In both cases, the generated content reflects the messaging in your playbook rather than generic research.
+
 ## Configure global email opt-out
 
 1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Admin Settings]**.

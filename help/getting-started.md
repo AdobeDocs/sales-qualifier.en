@@ -31,7 +31,9 @@ After Adobe provisions Sales Qualifier for your organization, a [!DNL Marketo] s
 
 ## Set up user groups
 
-Two user groups in Adobe Admin Console control access to Sales Qualifier. Create both groups before users sign in.
+User groups in Adobe Admin Console are used to control access to Sales Qualifier. Both groups must be created before users can sign in.
+
+See the [Adobe Admin Console documentation](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) for information about setting up groups.
 
 >[!PREREQUISITES]
 >
@@ -44,6 +46,8 @@ Two user groups in Adobe Admin Console control access to Sales Qualifier. Create
 
 Users must belong to the `Sales Qualifier` user group to access the application.
 
+These steps are done in the Adobe Admin Console.
+
 1. From the nine-dot app switcher, select **[!UICONTROL Admin Console]**.
 1. Select **[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**.
 1. Enter `Sales Qualifier` for the group name and select **[!UICONTROL Save]**.
@@ -54,7 +58,7 @@ Users must belong to the `Sales Qualifier` user group to access the application.
 
 ### Sales Qualifier administrators
 
-Administrators who configure CRM connections, the [Knowledge Center](knowledge-center.md), and global email opt-out settings must also belong to the `Sales Qualifier Admins` user group.
+Administrators who configure CRM connections, the [Knowledge Center](admin-settings.md#knowledge-center), and global email opt-out settings must also belong to the `Sales Qualifier Admins` user group.
 
 1. In Adobe Admin Console, select **[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**.
 1. Enter `Sales Qualifier Admins` for the group name and select **[!UICONTROL Save]**.
@@ -63,9 +67,7 @@ Administrators who configure CRM connections, the [Knowledge Center](knowledge-c
 
 Membership in both groups makes **[!UICONTROL Admin Settings]** visible under **[!UICONTROL Administration]** in the left navigation. Standard users work with the fields, filters, and playbook that administrators configure. The configured opt-out footer applies to their outbound emails automatically. Standard users cannot change these settings. See [User roles and permissions](user-roles-permissions.md) for details.
 
->[!NOTE]
->
->User group names must match exactly as shown in the preceding steps.
+User group names must match exactly as shown in the preceding steps.
 
 You can also create an optional `Sales Qualifier BDR managers` group. Members of this group can access email performance reports.
 
@@ -117,9 +119,7 @@ A Salesforce system administrator creates an external client app (also called a 
    * Callback URL
    * Salesforce instance URL
 
->[!IMPORTANT]
->
->Do not send client secrets by email. Use your organization's approved secure channel to share credentials with whoever enters them in Sales Qualifier.
+Steps may be slightly different than as described here. Refer to [Salesforce documentation](https://help.salesforce.com/s/) for more information.
 
 ### Find your Salesforce instance URL
 
@@ -155,9 +155,9 @@ A Microsoft Dynamics 365 or Azure administrator registers an application and add
 1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Admin Settings]**.
 1. Select **[!UICONTROL CRM connections]** under **[!UICONTROL Integrations]**.
 
-   Earlier versions of the interface might show this area as **[!UICONTROL Integrations]** under **[!UICONTROL Administration]**.
-
    The page displays cards for Salesforce and Microsoft Dynamics. An inactive connection shows **[!UICONTROL Connect]**. A configured connection shows **[!UICONTROL Connected]** and **[!UICONTROL Manage]**.
+
+   ![Salesforce credentials](assets/crm-salesforce.png){width="800" zoomable="yes"}
 
 1. Select **[!UICONTROL Connect]** for the CRM that you use.
 1. Enter the credentials and instance URL from your CRM administrator.
@@ -165,18 +165,9 @@ A Microsoft Dynamics 365 or Azure administrator registers an application and add
 
 ### Import CRM fields
 
-After connecting the CRM, configure inbound mapping to choose which CRM fields appear in Sales Qualifier.
+After connecting the CRM, configure inbound mapping to determine which CRM fields appear within Sales Qualifier. On the connected CRM card, select **[!UICONTROL Manage]** to open **[!UICONTROL Inbound mapping]**, then add a section for each entity type whose fields you want to import.
 
-1. On the connected CRM card, select **[!UICONTROL Manage]** to open **[!UICONTROL Inbound mapping]**.
-1. Select **[!UICONTROL Add section]**.
-1. Enter a section name and description.
-1. Select the entity type. **[!UICONTROL Prospects]** is selected by default. **[!UICONTROL Contacts]**, **[!UICONTROL Accounts]**, and **[!UICONTROL Opportunities]** are also available.
-1. Select the CRM fields to import.
-1. Preview the section and select **[!UICONTROL Add]**.
-
-Prospect fields appear on the **[!UICONTROL Person]** tab, account fields appear on the **[!UICONTROL Account]** tab, and opportunity fields appear in the **[!UICONTROL Account Opportunity]** section. Turn on **[!UICONTROL Filterable]** for each mapped field that representatives need as a filter.
-
-See [Integrations](integrations.md#map-crm-fields-inbound-mapping) to manage field mapping and synchronization.
+See [Map CRM fields (inbound mapping)](integrations.md#map-crm-fields-inbound-mapping) for complete steps, including how to make imported fields available as filters.
 
 ## Next steps
 

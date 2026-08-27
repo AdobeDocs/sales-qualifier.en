@@ -27,7 +27,7 @@ topic_v2:
 
 After Adobe provisions Sales Qualifier for your organization, a [!DNL Marketo] system administrator must create the required user groups and connect Salesforce or Microsoft Dynamics 365.
 
-[Sales Qualifier home page](assets/homepage.png){width="800" zoomable="yes"}
+![Sales Qualifier home page](assets/homepage.png){width="800" zoomable="yes"}
 
 ## Set up user groups
 
